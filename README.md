@@ -15,7 +15,7 @@ and writing a solutions manual for it.
 ### Chapter I: Groups
 1. Semigroups, Monoids and Groups
 2. Homomorphisms and Subgroups
-3. Cyclic Groups [md](chap-1-3.md)|[html](chapt-1-3.md.html) _wip_
+3. Cyclic Groups [md](chap-1-3.md)|[html](https://htmlpreview.github.io/?https://github.com/9beach/hungerford-algebra-solutions/blob/master/chap-1-3.md.html) _wip_
 4. Cosets and Counting
 5. Normality, Quotient Groups, and Homomorphisms
 6. Symmetric, Alternating, and Dihedral Groups

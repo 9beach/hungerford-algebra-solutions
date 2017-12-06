@@ -1,5 +1,5 @@
 # A solutions manual for Algebra by Thomas W. Hungerford
-#### Chapter I: Groups - 3. Cyclic Groups
+## Chapter I: Groups - 3. Cyclic Groups
 1\. Let $a$, $b$ be elements of a group $G$. Show that $|a| = |a^{−1}|$;
 $|ab| = |ba|$, and $|a| = |cac^{−1}|$ for all $c∈G$.
 
