@@ -1,7 +1,7 @@
 # A solutions manual for Algebra by Thomas W. Hungerford
-In December 2017, for no special reason I started studying
-[Algebra by Thomas W. Hungerford](https://www.amazon.com/Algebra-Graduate-Texts-Mathematics-v/dp/0387905189),
-and writing a solutions manual for it.
+December 2017, for no special reason I started studying mathematics and writing
+a solutions manual for
+[Algebra by Thomas W. Hungerford](https://www.amazon.com/Algebra-Graduate-Texts-Mathematics-v/dp/0387905189).
 
 ## Introduction: Prerequisites and Preliminaries
 1. Logic
@@ -15,7 +15,7 @@ and writing a solutions manual for it.
 ## Chapter I: Groups
 1. Semigroups, Monoids and Groups
 2. Homomorphisms and Subgroups
-3. Cyclic Groups [md](chap-1-3.md)|[html](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-1-3.md.html) _wip_
+3. Cyclic Groups [md](chap-1-3.md)|[html](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-1-3.html) _wip_
 4. Cosets and Counting
 5. Normality, Quotient Groups, and Homomorphisms
 6. Symmetric, Alternating, and Dihedral Groups
