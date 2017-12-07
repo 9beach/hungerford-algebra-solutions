@@ -12,6 +12,7 @@ a solutions manual for
 6. The Integers
 7. The Axiom of Choice, Order and Zorn’s Lemma
 8. Cardinal Numbers
+
 ## Chapter I: Groups
 1. Semigroups, Monoids and Groups
 2. Homomorphisms and Subgroups
@@ -22,6 +23,7 @@ a solutions manual for
 7. Categories: Products, Coproducts, and Free Objects
 8. Direct Products and Direct Sums
 9. Free Groups, Free Products, Generators & Relations
+
 ## Chapter II: The Structure of Groups
 1. Free Abelian Groups
 2. Finitely Generated Abelian Groups
@@ -31,6 +33,7 @@ a solutions manual for
 6. Classification of Finite Groups
 7. Nilpotent and Solvable Groups
 8. Normal and Subnormal Series
+
 ## Chapter III: Rings
 1. Rings and Homomorphisms
 2. Ideals
@@ -38,6 +41,7 @@ a solutions manual for
 4. Rings of Quotients and Localization
 5. Rings of Polynomials and Formal Power Series
 6. Factorization in Polynomial Rings
+
 ## Chapter IV: Modules
 1. Modules, Homomorphisms and Exact Sequences
 2. Free Modules and Vector Spaces
@@ -46,6 +50,7 @@ a solutions manual for
 5. Tensor Products
 6. Modules over a Principal Ideal Domain
 7. Algebras
+
 ## Chapter V: Fields and Galois Theory
 1. Field Extensions
 2. The Fundamental Theorem
@@ -56,15 +61,18 @@ a solutions manual for
 7. Cyclic Extensions
 8. Cyclotomic Extensions
 9. Radical Extensions
+
 ## Chapter VI: The Structure of Fields
 1. Transcendence Bases
 2. Linear Disjointness and Separability
+
 ## Chapter VII: Linear Algebra
 1. Matrices and Maps
 2. Rank and Equivalence
 3. Determinants
 4. Decomposition of a Single Linear Transformation and Similarity
 5. The Characteristic Polynomial, Eigenvectors and Eigenvalues
+
 ## Chapter VIII: Commutative Rings and Modules
 1. Chain Conditions
 2. Prime and Primary Ideals
@@ -73,6 +81,7 @@ a solutions manual for
 5. Ring Extensions
 6. Dedekind Domains
 7. The Hilbert Nullstellensatz
+
 ## Chapter IX: The Structure of Rings
 1. Simple and Primitive Rings
 2. The Jacobson Radical
@@ -80,6 +89,7 @@ a solutions manual for
 4. The Prime Radical; Prime and Semiprime Rings
 5. Algebras
 6. Division Algebras
+
 ## Chapter X: Categories
 1. Functors and Natural Transformations
 2. Adjoint Functors
