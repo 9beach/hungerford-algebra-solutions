@@ -22,10 +22,7 @@ inclusion is a lattice, which has a unique maximal element.
 (c\) Give an example of a lattice with no maximal element and an example of a
 partially ordered set with two maximal elements.
 
-
-**_Proof._**
-<br />$\quad$
-(a) Let $X, Y \in P(S)$. From
+**_Proof._**$\quad$(a) Let $X, Y \in P(S)$. From
 $X \subseteq T, Y \subseteq T \iff X \cup Y \subseteq T$,
 and from $X \subseteq T, Y \subseteq T \iff T \subseteq X \cap Y$,
 $X \cap Y$ is the greatest lower bound and $X \cup Y$ is the least upper bound
@@ -33,10 +30,7 @@ of $\left\{{X, Y}\right\}$. Therefore, $P(S)$ is a lattice. Obviously $S$ is
 the unique maximal element.
 $\quad\blacksquare$
 
-
-**_Examples._**
-<br />$\quad$
-(b) The set $\{\emptyset, \{0\}, \{1\}\}$ ordered by inclusion.
+**_Examples._**$\quad$ (b) The set $\{\emptyset, \{0\}, \{1\}\}$ ordered by inclusion.
 <br />$\quad$
 (c\) The natural numbers ordered in the traditional way, and the set
 $\{\emptyset, \{0\}, \{1\}\}$ ordered by inclusion.
