@@ -4,19 +4,13 @@ a solutions manual for
 [Algebra by Thomas W. Hungerford](https://www.amazon.com/Algebra-Graduate-Texts-Mathematics-v/dp/0387905189).
 
 ## Introduction: Prerequisites and Preliminaries
-1. Logic
-2. Sets and Classes
-3. Functions
-4. Relations and Partitions
-5. Products
-6. The Integers
-7. The Axiom of Choice, Order and Zorn’s Lemma
+7. [The Axiom of Choice, Order and Zorn’s Lemma](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-0-7.html) _wip_
 8. Cardinal Numbers
 
 ## Chapter I: Groups
 1. Semigroups, Monoids and Groups
 2. Homomorphisms and Subgroups
-3. Cyclic Groups [md](chap-1-3.md)|[html](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-1-3.html) _wip_
+3. [Cyclic Groups](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-1-3.html) _wip_
 4. Cosets and Counting
 5. Normality, Quotient Groups, and Homomorphisms
 6. Symmetric, Alternating, and Dihedral Groups
