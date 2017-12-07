@@ -62,7 +62,7 @@ $$
 Note that $m'$ divides $m$, and $n'$ divides $n$, and $m'$ and $n'$ are
 relatively prime, and $m'n'$ is the least common multiple of $m$ and $n$.
 We claim that the order of $a'$ is $m'$. Let $k$
-be the order of $a'$. Since
+be the order of $a'$, and since
 $e=(a')^k=(a^{m/m'})^k=a^{mk/m'}$, $m$ divides $mk/m'$, and so $m'$
 divides $k$. On the other hand, since $(a^{m/m’})^{m’}=a^m=e$, $k$
 divides $m'$. So the order of $a'$ is $m'$. Similarly, the order of $b'$ is
