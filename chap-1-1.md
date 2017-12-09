@@ -32,9 +32,8 @@ that this statement is false if p is not prime.
 
 8\.$\quad$(a) The relation given by $a ∼ b \Leftrightarrow a−b ∈ Z$ is a congruence
 relation on the additive group $\mathbb{Q}$ [see Theorem 1.5].
-<br />$\quad$
-(b) The set $\mathbb{Q}/\mathbb{Z}$ of equivalence classes is an infinite
-abelian group.
+<br />$\quad$(b) The set $\mathbb{Q}/\mathbb{Z}$ of equivalence classes is
+an infinite abelian group.
 
 9\. Let $p$ be a fixed prime. Let $R_p$ be the set of all those rational
 numbers whose denominator is relatively prime to $p$. Let $R^p$ be the set of
@@ -72,8 +71,9 @@ ba=ca\Rightarrow b=c$. Then $G$ is a group. Show that this conclusion may be
 false if $G$ is infinite.
 
 16\. Let $a_1, a_2,...$ be a sequence of elements in a semigroup $G$. Then
-there exists a unique function $ψ : \mathbb{N}^* \to G$ such that $ψ(1) = a_1,
-ψ(2) = a_1a_2,ψ(3) = (a_1a_2)a_3$ and for $n ≥ 1, ψ(n+1) = (ψ(n))a_{n+1}$.
+there exists a unique function $ψ : \mathbb{N}^* \to G$ such that $ψ(1) =
+a_1, ψ(2) = a_1a_2,ψ(3) = (a_1a_2)a_3$ and for $n ≥ 1, ψ(n+1) =
+(ψ(n))a_{n+1}$.
 Note that $ψ(n)$ is precisely the standard $n$ product $\prod_{i=1}^n{a_i}$
 [_Hint:_ Applying the Recursion Theorem 6.2 of the Introduction with $a=a_1,S=G$ and $f_n :G \to G$ given by $x \to xa_{n+2}$ yields a function
 $φ:N \to G$. Let $ψ=φθ$, where $θ:\mathbb{N}^* →\mathbb{N}$ is given by
