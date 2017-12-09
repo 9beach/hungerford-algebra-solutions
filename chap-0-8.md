@@ -7,7 +7,7 @@ pagetitle: "Introduction: Prerequisites and Preliminaries - 8. Cardinal Numbers"
 ## Introduction: Prerequisites and Preliminaries - 8. Cardinal Numbers
 ### Exercises
 
-1\.$\;$ Let $I_0 \ne \emptyset$ and for each $n ∈ \mathbb{N}^*$
+1\. Let $I_0 \ne \emptyset$ and for each $n ∈ \mathbb{N}^*$
 let $I_n = \{1,2,3,...,n\}$.
 <br />$\quad$
 (a) $I_n$ is not equipollent to any of its proper subsets [*Hint:* induction.]
@@ -17,22 +17,22 @@ let $I_n = \{1,2,3,...,n\}$.
 (c\) $I_m$ is equipollent to a subset of $I_n$ but $I_n$ is not equipollent to
 any subset of $I_m$ if and only if $m<n$.
 
-2\.$\;$ (a) Every infinite set is equipollent to one of its proper subsets.
+2\. (a) Every infinite set is equipollent to one of its proper subsets.
 <br />$\quad$
 (b) A set is finite if and only if it is not equipollent to one of its proper
 subsets [see Exercise 1].
 
-3\.$\;$ (a) $\mathbb{Z}$ is a denumerable set.
+3\. (a) $\mathbb{Z}$ is a denumerable set.
 <br />$\quad$
 (b) The set $\mathbb{Q}$ of rational numbers is denumerable. [_Hint:_ show
 that $|\mathbb{Z}| ≤ |\mathbb{Q}| ≤ |\mathbb{Z} × \mathbb{Z}| =
 |\mathbb{Z}|$.]
 
-4\.$\;$ If $A,A',B,B'$ are sets such that $|A| = |A'|$ and $|B| = |B'|$, then
+4\. If $A,A',B,B'$ are sets such that $|A| = |A'|$ and $|B| = |B'|$, then
 $|A × B| = |A' ×B'|$. If in addition $A∩B = ∅ = A'∩B'$, then $|A∪B| =
 |A'∪B'|$. Therefore multiplication and addition of cardinals is well-defined.
 
-5\.$\;$ For all cardinal numbers $α, β, γ$
+5\. For all cardinal numbers $α, β, γ$
 <br />$\quad$
 (a) $α+β=β+α$ and $αβ=βα$ (commutative laws).
 <br />$\quad$
@@ -46,17 +46,17 @@ $|A × B| = |A' ×B'|$. If in addition $A∩B = ∅ = A'∩B'$, then $|A∪B| =
 there is no $β$ such that $αβ = 1$. Therefore subtraction and division of
 cardinal numbers cannot be defined.
 
-6\.$\;$ Let $I_n$ be as in Exercise 1. If $A∼I_m$ and $B∼I_n$ and $A∩B=∅$,
+6\. Let $I_n$ be as in Exercise 1. If $A∼I_m$ and $B∼I_n$ and $A∩B=∅$,
 then $(A∪B)∼I_{m+n}$ and $A×B∼I_{mn}$. Thus if we identify $|A|$ with $m$ and
 $|B|$ with $n$, then $|A| + |B| = m + n$ and $|A||B| = mn$.
 
-7\.$\;$ If $A∼A', B∼B'$, and $f: A \to B$ is injective, then there is an
+7\. If $A∼A', B∼B'$, and $f: A \to B$ is injective, then there is an
 injective map $A' \to B'$. Therefore the relation $\le$ on cardinal numbers is
 well defined.
 
-8\.$\;$ An infinite subset of a denumerable set is denumerable.
+8\. An infinite subset of a denumerable set is denumerable.
 
-9\.$\;$ The infinite set of real numbers $R$ is not denumerable (that is
+9\. The infinite set of real numbers $R$ is not denumerable (that is
 $\aleph_0 < |R|$). [_Hint:_ It suffices to show that the open interval
 $(0, 1)$ is not denumerable by Exercise 8. You may assume each real number
 can be written as an infinite decimal. If $(0, 1)$ is denumerable there is a
@@ -81,5 +81,5 @@ $α^n = α$ if $α$ is infinite.
 <br />$\quad$
 (f) If $P(A)$ is the power set of a set $A$, then $|P(A)| = 2^{|A|}$.
 
-11\.$\;$ If $I$ is an infinite set, and for each $i∈I A_i$ is a finite set.
+11\. If $I$ is an infinite set, and for each $i∈I A_i$ is a finite set.
 Then $\lvert \bigcup_{i \in I}A_i \rvert \le |I|\alpha$.
