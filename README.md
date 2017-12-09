@@ -5,11 +5,11 @@ a solutions manual for
 
 ## Introduction: Prerequisites and Preliminaries
 7. [The Axiom of Choice, Order and Zorn’s Lemma](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-0-7.html) _wip_
-8. Cardinal Numbers
+8. [Cardinal Numbers](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-0-8.html) _wip_
 
 ## Chapter I: Groups
-1. Semigroups, Monoids and Groups
-2. Homomorphisms and Subgroups
+1. [Semigroups, Monoids and Groups](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-1-1.html) _wip_
+2. [Homomorphisms and Subgroups](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-1-2.html) _wip_
 3. [Cyclic Groups](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-1-3.html) _wip_
 4. Cosets and Counting
 5. Normality, Quotient Groups, and Homomorphisms
