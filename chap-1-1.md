@@ -43,8 +43,8 @@ $R_p$ and $R^p$ are abelian groups under ordinary addition of rationals.
 10\. Let $p$ be a prime and let $Z(p^∞)$ be the following subset of the
 group $\mathbb{Q}/\mathbb{Z}$ (see pg. 27):
 $$
-Z(p^∞)=\{\overline{a/b}∈Q/Z \mid a,b∈Z \text{ and } b=p^i \text{ for
-  some }i≥0\}.
+Z(p^∞)=\{\overline{a/b}∈Q/Z \mid a,b∈Z \text{ and } b=p^i \text{ for some }
+i≥0\}.
 $$
 Show that $\mathbb{Z}(p^∞)$ is an infinite group under the addition operation
 of $\mathbb{Q}/\mathbb{Z}$.
@@ -57,7 +57,7 @@ integers $n$ and
 all $a, b ∈ G$. Show (v) $\Rightarrow$ (i) is false if “three” is replaced
 by “two.”
 
-12\. If $G$ is a group, $a,b∈G$ and $bab=a$ for_some $r∈\mathbb{N}$, then
+12\. If $G$ is a group, $a,b∈G$ and $bab=a$ for some $r∈\mathbb{N}$, then
 $bab =a$ for all $i ∈ \mathbb{N}$.
 
 13\. If $a^2 = e$ for all elements $a$ of a group $G$, then $G$ is abelian.

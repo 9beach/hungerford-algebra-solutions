@@ -40,15 +40,30 @@ the set $\{\emptyset, \{0\}, \{1\}\}$ ordered by inclusion.
 nonempty subset of $A$ has both a least upper bound and a greatest lower
 bound. A map of partially ordered sets $f :A→B$ is said to preserve
 order if $a≤a'$ in $A$ implies $f(a) ≤ f(a')$ in $B$. Prove that an
-order-preserving map $f$ of a complete lattice $A$ onto itself has at least
-one fixed element (that is, an $a ∈ A$ such that $f(a) = a$).
+order-preserving map $f$ of a complete lattice $A$ onto itself has at
+least one fixed element (that is, an $a ∈ A$ such that $f(a) = a$).
+
+**_Proof._**$\quad$Let $P=\{x∈A:f(x)≥x\}$. Note that $P$ is nonempty as
+the g.l.b of $A\in P$. Let $a$ be the l.u.b of $P$. Since $a≥x$ for all
+$x∈P$, and so $f(a) \ge f(x)$ for all $x \in P$, $f(a)≥a$. Thus $a∈P$.
+But then $a≤f(a)$ implies $f(a)≤f(f(a))$; thus $f(a)∈A$, and so $f(a)≤a$.
+Therefore, $f(a) = a$.$\quad\blacksquare$
 
 3\. Exhibit a well-ordering of the set $\mathbb{Q}$ of rational numbers.
 
+**_Example._**$\quad$ $0,1,2,3,...,
+\frac{1}2,\frac{3}2,\frac{5}2,\frac{7}2,...,
+\frac{1}3,\frac{2}3,\frac{4}3,\frac{5}3,...,
+\frac{1}4,\frac{3}4,\frac{5}4,\frac{7}4,...,$
+$-1,-2,-3,-4,...,
+-\frac{1}2,-\frac{3}2,-\frac{5}2,-\frac{7}2,...,
+-\frac{1}3,-\frac{2}3,-\frac{4}3,-\frac{5}3,...,
+-\frac{1}4,-\frac{3}4,-\frac{5}4,-\frac{7}4,...$
+
 4\. Let $S$ be a set. A **choice function** for $S$ is a function $f$ from
-the set of all nonempty subsets of $S$ to $S$ such that $f(A) \in A$ for all
-$A \ne \emptyset, A⊆S$. Show that the Axiom of Choice is equivalent to the
-statement that every set $S$ has a choice function.
+the set of all nonempty subsets of $S$ to $S$ such that $f(A) \in A$ for
+all $A \ne \emptyset, A⊆S$. Show that the Axiom of Choice is equivalent
+to the statement that every set $S$ has a choice function.
 
 5\. Let $S$ be the set of all points $(x, y)$ in the plane with $y ≤ 0$.
 Define an ordering by $(x_1,y_1) ≤ (x_2,y_2) \iff x_1 = x_2$ and $y_1 ≤
@@ -60,7 +75,7 @@ infinitely many maximal elements.
 {A_i \to A_k}$ is surjective.
 
 7\. Let $(A, ≤)$ be a linearly ordered set. The **immediate successor** of
-$a \in A$ (if it exists)is the least element in the set $\{x\in A\mid
+$a \in A$ (if it exists) is the least element in the set $\{x\in A\mid
 a<x\}$. Prove that if $A$ is well-ordered by $≤$, then at most one element
 of $A$ has no immediate successor. Give an example of a linearly ordered
 set in which precisely two elements have no immediate successor.
