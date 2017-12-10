@@ -104,7 +104,7 @@ set in which precisely two elements have no immediate successor.
 
 **_Proof._**$\quad$Given any $a \in A$. If $a$ is not a maximal element
 of $A$, then $X_a = \{ x \in A \mid x \gt a \}$ is nonempty; by
-well-orderingness, $X_a$ has a least element $m$, which is the immediate
+well-orderedness, $X_a$ has a least element $m$, which is the immediate
 successor of $a$. Otherwise, $a$ has no immediate successor; given any two
 maximal elements $M$ and $N$, either $M < N, M = N$, or $N < M$; thus
 $M = N$.$\quad\blacksquare$
