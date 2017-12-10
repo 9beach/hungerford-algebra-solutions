@@ -67,12 +67,12 @@ all $A \ne \emptyset, A⊆S$. Show that the Axiom of Choice is equivalent
 to the statement that every set $S$ has a choice function.
 
 **_Proof._**$\quad$When $S = \emptyset$, there is no nonempty subset of
-$S$; vacuously true so we suppose $S$ is not empty.
+$S$; vacuously true so we suppose $S$ is nonempty.
 Let $X=\{X_i\mid i\in I\}$ be the family of all nonempty subsets of $S$.
-Suppose that the Axiom of Choice is true, then we can define
-$\prod_{i\in I}X_i$ which is not empty; from each element of the procuct,
+Suppose that the Axiom of Choice is true, then we have
+$\prod_{i\in I}X_i$ which is nonempty; from each element of the procuct,
 $\langle x_i\mid i\in I\rangle$ which is a sequence of $x_i$
-such that $x_i\in X_i$, we can define a function $f(i)=x_i$. So everty set
+such that $x_i\in X_i$, we have a function $f(i)=x_i$. So every set
 $S$ has a choice function. Conversely, If there is a choice function $f$,
 then $\langle f(i)\mid i\in I\rangle$ is an element of the product
 $\prod_{i\in I}X_i$. So the product is nonempty.$\quad\blacksquare$
