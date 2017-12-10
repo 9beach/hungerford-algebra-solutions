@@ -1,5 +1,6 @@
 ---
 pagetitle: "Chapter I: Groups - 1. Semigroups, Monoids, and Groups"
+author: 9beach@gmail.com
 
 ---
 

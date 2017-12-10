@@ -1,5 +1,6 @@
 ---
 pagetitle: "Chapter I: Groups - 3. Cyclic Groups"
+author: 9beach@gmail.com
 
 ---
 

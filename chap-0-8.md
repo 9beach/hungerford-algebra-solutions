@@ -1,5 +1,6 @@
 ---
 pagetitle: "Introduction: Prerequisites and Preliminaries - 8. Cardinal Numbers"
+author: 9beach@gmail.com
 
 ---
 

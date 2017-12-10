@@ -1,5 +1,6 @@
 ---
 pagetitle: "Chapter I: Groups - 3. Homomorphisms and Subgroups"
+author: 9beach@gmail.com
 
 ---
 
