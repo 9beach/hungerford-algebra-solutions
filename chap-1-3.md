@@ -17,9 +17,7 @@ thus $\langle a \rangle = \langle a^{-1} \rangle$, and so $|a| = |a^{−1}|$.
 <br />$\quad$
 Suppose that $ab$ has finite order $m$. Since
 $$
-e = (ab)^m = abab...ab = a(ba)^{m-1}b \iff
-$$
-$$
+e = (ab)^m = abab...ab = a(ba)^{m-1}b \iff\\
 (ba)^{m-1} = a^{-1}e b^{-1} \iff (ba)^{m-1}b = a^{-1}
 \iff (ba)^m = e,
 $$
