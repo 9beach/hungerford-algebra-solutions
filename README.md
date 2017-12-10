@@ -4,7 +4,7 @@ a solutions manual for
 [Algebra by Thomas W. Hungerford](https://www.amazon.com/Algebra-Graduate-Texts-Mathematics-v/dp/0387905189).
 
 ## Introduction: Prerequisites and Preliminaries
-7. [The Axiom of Choice, Order and Zorn’s Lemma](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-0-7.html) _wip_
+7. [The Axiom of Choice, Order and Zorn’s Lemma](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-0-7.html)
 8. [Cardinal Numbers](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-0-8.html) _wip_
 
 ## Chapter I: Groups
