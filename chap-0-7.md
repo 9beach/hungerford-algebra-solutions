@@ -113,5 +113,5 @@ maximal elements $M$ and $N$, either $M < N, M = N$, or $N < M$; thus
 $M = N$.$\quad\blacksquare$
 
 **_Example._**$\quad$Consider a subset of $\mathbb{R}$, $\left[0, 1\right]
-\cup \left(1.1, 2\right] \cup \left(2.1, 3\right]$. $1, 2$ have no immediate
+\cup \left(1.1, 2\right]$. $1, 2$ have no immediate
 successor.
