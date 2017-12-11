@@ -8,23 +8,24 @@ author: 9beach@gmail.com
 ## Introduction: Prerequisites and Preliminaries - 7. The Axiom of Choice, Order and Zorn’s Lemma
 ### Exercises
 
-1\. Let $(A, ≤)$ be a partially ordered set and $B$ a nonempty subset. A lower
-bound of $B$ is an element $d∈A$ such that $d≤b$ for every $b∈B$.
+1\. Let $(A, ≤)$ be a partially ordered set and $B$ a nonempty subset. A
+lower bound of $B$ is an element $d∈A$ such that $d≤b$ for every $b∈B$.
 A **greatest lower bound (g.l.b.)** of $B$ is a lower bound $d_0$ of $B$ such
 that $d ≤ d_0$ for every other lower bound $d$ of $B$. A **least upper bound
 (l.u.b.)** of $B$ is an upper bound $t_0$ of $B$ such that $t_0 ≤ t$ for
 every other upper bound $t$ of $B$. $(A,≤)$ is a **lattice** if for all $a,
 b ∈ A$ the set $\{a, b\}$ has both a greatest lower bound and a least upper
 bound.
-<br />$\quad$(a) If $S \ne \emptyset$, then the power set $P(S)$ ordered by set-theoretic
-inclusion is a lattice, which has a unique maximal element.
-<br />$\quad$(b) Give an example of a partially ordered set which is not a lattice.
-<br />$\quad$(c\) Give an example of a lattice with no maximal element and an example of a
-partially ordered set with two maximal elements.
+<br />$\quad$(a) If $S \ne \emptyset$, then the power set $P(S)$ ordered by
+set-theoretic inclusion is a lattice, which has a unique maximal element.
+<br />$\quad$(b) Give an example of a partially ordered set which is not a
+lattice.
+<br />$\quad$(c\) Give an example of a lattice with no maximal element and
+an example of a partially ordered set with two maximal elements.
 
 **_Proof._**$\quad$(a) Let $X, Y \in P(S)$. From
 $X \subseteq T, Y \subseteq T \iff X \cup Y \subseteq T$,
-and from $X \subseteq T, Y \subseteq T \iff T \subseteq X \cap Y$,
+and from $T \subseteq X, T \subseteq Y \iff T \subseteq X \cap Y$,
 $X \cap Y$ is the greatest lower bound and $X \cup Y$ is the least upper
 bound of $\left\{{X, Y}\right\}$. Therefore, $P(S)$ is a lattice. Given
 any set $A \in P(S), A ∪ S = S$, so $S$ is a maximal element of $P(S)$.
@@ -32,10 +33,10 @@ Furthermore, any set $M \in P(S)$ that is maximal still has the property
 that $M ∪S = S$. Therefore, P(S) has a unique maximal element,
 $S$.$\quad\blacksquare$
 
-**_Examples._**$\quad$(b) The set $\{\emptyset, \{0\}, \{1\}\}$ ordered by
-inclusion.
+**_Examples._**$\quad$(b) The set $\{\emptyset, \{0, 2\}, \{1, 3\}\}$ ordered
+by inclusion.
 <br />$\quad$(c\) The natural numbers ordered in the traditional way, and
-the set $\{\emptyset, \{0\}, \{1\}\}$ ordered by inclusion.
+the set $\{\emptyset, \{0, 2\}, \{1, 3\}\}$ ordered by inclusion.
 
 2\. A lattice $(A,≤)$ (see Exercise 1) is said to be **complete** if every
 nonempty subset of $A$ has both a least upper bound and a greatest lower
@@ -47,8 +48,8 @@ least one fixed element (that is, an $a ∈ A$ such that $f(a) = a$).
 **_Proof._**$\quad$Let $P=\{x∈A:f(x)≥x\}$. Note that $P$ is nonempty as
 the g.l.b of $A\in P$. Let $a$ be the l.u.b of $P$. Since $a≥x$ for all
 $x∈P$, $f(a) \ge f(x)$ for all $x∈P$, and so $f(a)≥x$ for all $x∈P$;
-thus $f(a) \ge a$, and so $a∈P$. But then $a≤f(a)$ implies $f(a)≤f(f(a))$; thus $f(a)∈A$, and
-so $f(a)≤a$. Therefore, $f(a) = a$.$\quad\blacksquare$
+thus $f(a) \ge a$, and so $a∈P$. But then $a≤f(a)$ implies $f(a)≤f(f(a))$;
+thus $f(a)∈A$, and so $f(a)≤a$. Therefore, $f(a) = a$.$\quad\blacksquare$
 
 3\. Exhibit a well-ordering of the set $\mathbb{Q}$ of rational numbers.
 
