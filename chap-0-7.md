@@ -30,7 +30,7 @@ $X \cap Y$ is the greatest lower bound and $X \cup Y$ is the least upper
 bound of $\left\{{X, Y}\right\}$. Therefore, $P(S)$ is a lattice. Given
 any set $A \in P(S), A ∪ S = S$, so $S$ is a maximal element of $P(S)$.
 Furthermore, any set $M \in P(S)$ that is maximal still has the property
-that $M ∪S = S$. Therefore, P(S) has a unique maximal element,
+that $M ∪S = S$. Therefore, $P(S)$ has a unique maximal element,
 $S$.$\quad\blacksquare$
 
 **_Examples._**$\quad$(b) The set $\{\emptyset, \{0, 2\}, \{1, 3\}\}$ ordered
@@ -68,7 +68,7 @@ all $A \ne \emptyset, A⊆S$. Show that the Axiom of Choice is equivalent
 to the statement that every set $S$ has a choice function.
 
 **_Proof._**$\quad$When $S = \emptyset$, there is no nonempty subset of
-$S$; vacuously true so we suppose $S$ is nonempty.
+$S$; vacuously true, so we suppose $S$ is nonempty.
 Let $X=\{X_i\mid i\in I\}$ be the family of all nonempty subsets of $S$.
 Suppose that the Axiom of Choice is true, then we have
 $\prod_{i\in I}X_i$ which is nonempty; from each element of the procuct,
@@ -113,5 +113,5 @@ maximal elements $M$ and $N$, either $M < N, M = N$, or $N < M$; thus
 $M = N$.$\quad\blacksquare$
 
 **_Example._**$\quad$Consider a subset of $\mathbb{R}$, $\left[0, 1\right]
-\cup \left(1, 2\right] \cup \left(2, 3\right]$. $1, 2$ have no immediate
+\cup \left(1.1, 2\right] \cup \left(2.1, 3\right]$. $1, 2$ have no immediate
 successor.
