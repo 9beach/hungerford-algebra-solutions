@@ -57,14 +57,15 @@ m=\prod_{i}p_i^{\alpha_i} \text{ and } n=\prod_{i} p_i^{\beta_i},
 $$
 and let
 $$
-m’=\prod_{i: \alpha_i \geq \beta_i}p_i^{\alpha_i} \text{ and }
-n’=\prod_{i: \beta_i> \alpha_i} p_i^{\beta_i} \text{ and } a’=a^{m/m’} \text{ and }  b’=b^{n/n’}.
+m'=\prod_{i: \alpha_i \geq \beta_i}p_i^{\alpha_i} \text{ and }
+n'=\prod_{i: \beta_i> \alpha_i} p_i^{\beta_i} \text{ and } a'=a^{m/m'}
+\text{ and }  b'=b^{n/n'}.
 $$
 Note that $m'$ divides $m$, and $n'$ divides $n$, and $m'$ and $n'$ are
 relatively prime, and $m'n'$ is the least common multiple of $m$ and $n$.
 We claim that the order of $a'$ is $m'$. Let $k$ be the order of $a'$.
 Since $e=(a')^k=(a^{m/m'})^k=a^{mk/m'}$, $m$ divides $mk/m'$, and so $m'$
-divides $k$. On the other hand, since $(a^{m/m’})^{m’}=a^m=e$, $k$ divides
+divides $k$. On the other hand, since $(a^{m/m'})^{m'}=a^m=e$, $k$ divides
 $m'$. So the order of $a'$ is $m'$. Similarly, the order of $b'$ is $n'$.
 Now, let the order of $a'b' = r'$, we claim that $r'$ is $m'n'$. Since
 $$
@@ -79,9 +80,11 @@ divides $r'$. Similarly, $m'$ divides $r'$; thus $m'n'$ divides $r$, and
 so $r' = m'n'$. Therefore, $G$ contains an element whose order is the
 least common multiple of $m$ and $n$.$\quad\blacksquare$
 
-3\. Let $G$ be an abelian group of order $pq$, with $(p,q) = 1$. Assume there exists $a, b ∈ G$ such that $|a| = p, |b| = q$ and show that $G$ is cyclic.
+3\. Let $G$ be an abelian group of order $pq$, with $(p,q) = 1$. Assume there
+exists $a, b ∈ G$ such that $|a| = p, |b| = q$ and show that $G$ is cyclic.
 
-4\. If $f : G → H$ is a homomorphism, $a ∈ G$, and $f(a)$ has finite order in $H$, then $|a|$ is infinite or $|f(a)|$ divides $|a|$.
+4\. If $f : G → H$ is a homomorphism, $a ∈ G$, and $f(a)$ has finite order in
+$H$, then $|a|$ is infinite or $|f(a)|$ divides $|a|$.
 
 5\. Let $G$ be a multiplicative group of all nonsingular $2 × 2$ matrices with rational  entries. Show that $a =
 \begin{pmatrix}
@@ -93,9 +96,12 @@ has order $4$ and $b =
   \phantom{-}0 & \phantom{-}1\\
   -1 & -1
 \end{pmatrix}$
-has order $3$, but $ab$ has infinite order. Conversely, show that the additive group $Z_2 ⊕ \mathbb{Z}$ contains nonzero elements $a, b$ of infinite order such that $a + b$ has finite order.
+has order $3$, but $ab$ has infinite order. Conversely, show that the
+additive group $Z_2 ⊕ \mathbb{Z}$ contains nonzero elements $a, b$ of
+infinite order such that $a + b$ has finite order.
 
-6\. If $G$ is a cyclic group of order $n$ and $k|n$, then $G$ has exactly one subgroup of order $k$.
+6\. If $G$ is a cyclic group of order $n$ and $k|n$, then $G$ has exactly
+one subgroup of order $k$.
 
 7\. Let $p$ be prime and $H$ a subgroup of $Z(p^∞)$ (Exercise 1.10).<br />
 $\quad$(a) Every element of $Z(p^∞)$ has finite order $p^n$ for some $n ≥
@@ -116,6 +122,8 @@ well-defined isomorphism.]
 
 8\. A group that has only a finite number of subgroups must be finite.
 
-9\. If $G$ is an abelian group, then the set $T$ of all elements of $G$ with finite order is a subgroup of $G$. [Compare Exercise 5.]
+9\. If $G$ is an abelian group, then the set $T$ of all elements of $G$ with
+finite order is a subgroup of $G$. [Compare Exercise 5.]
 
-10\. An infinite group is cyclic if and only if it is isomorphic to each of its proper subgroups.
+10\. An infinite group is cyclic if and only if it is isomorphic to each of
+its proper subgroups.

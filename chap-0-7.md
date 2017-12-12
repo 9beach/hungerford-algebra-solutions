@@ -53,22 +53,19 @@ thus $f(a)∈A$, and so $f(a)≤a$. Therefore, $f(a) = a$.$\quad\blacksquare$
 
 3\. Exhibit a well-ordering of the set $\mathbb{Q}$ of rational numbers.
 
-**_Example._**$\quad$ $0,1,2,3,...,
-\frac{1}2,\frac{3}2,\frac{5}2,\frac{7}2,...,
-\frac{1}3,\frac{2}3,\frac{4}3,\frac{5}3,...,
-\frac{1}4,\frac{3}4,\frac{5}4,\frac{7}4,...,$
-$-1,-2,-3,-4,...,
--\frac{1}2,-\frac{3}2,-\frac{5}2,-\frac{7}2,...,
--\frac{1}3,-\frac{2}3,-\frac{4}3,-\frac{5}3,...,
--\frac{1}4,-\frac{3}4,-\frac{5}4,-\frac{7}4,...$
+**_Example._**$\quad$$\frac{1}1,\frac{1}2,\frac{2}1,\frac{1}3,\frac{3}1,
+\frac{1}4,\frac{2}3,\frac{3}2,\frac{4}1,\frac{1}5,\frac{5}1,\frac{1}6,...,$
+$\text{-}\frac{1}1,\text{-}\frac{1}2,\text{-}\frac{2}1,\text{-}\frac{1}3,
+\text{-}\frac{3}1, \text{-}\frac{1}4,\text{-}\frac{2}3,\text{-}\frac{3}2,
+\text{-}\frac{4}1,...$
 
 4\. Let $S$ be a set. A **choice function** for $S$ is a function $f$ from
 the set of all nonempty subsets of $S$ to $S$ such that $f(A) \in A$ for
 all $A \ne \emptyset, A⊆S$. Show that the Axiom of Choice is equivalent
 to the statement that every set $S$ has a choice function.
 
-**_Proof._**$\quad$When $S = \emptyset$, there is no nonempty subset of
-$S$; vacuously true, so we suppose $S$ is nonempty.
+**_Proof._**$\quad$When $S = \emptyset$, there does not exist nonempty
+subset of $S$; vacuously true, so we suppose $S$ is nonempty.
 Let $X=\{X_i\mid i\in I\}$ be the family of all nonempty subsets of $S$.
 Suppose that the Axiom of Choice is true, then we have
 $\prod_{i\in I}X_i$ which is nonempty; from each element of the procuct,
