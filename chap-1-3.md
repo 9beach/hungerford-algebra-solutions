@@ -17,13 +17,13 @@ thus $\langle a \rangle = \langle a^{-1} \rangle$, and so $|a| = |a^{-1}|$.
 \
 &nbsp;$\quad$
 Suppose that $ab$ has finite order $m$. Since
-\[
-\begin{gather*}
-e = (ab)^m = abab...ab = a(ba)^{m-1}b \Leftrightarrow\\
+$$
+\begin{gathered}
+e = (ab)^m = abab...ab = a(ba)^{m-1}b \Leftrightarrow \\
 (ba)^{m-1} = a^{-1}e b^{-1} \Leftrightarrow (ba)^{m-1}b = a^{-1}
 \Leftrightarrow (ba)^m = e,
-\end{gather*}
-\]
+\end{gathered}
+$$
 $|ba| \le |ab|$. Conversely, suppose that $ba$ has finite order. Similarly
 to the previous, we have $|ab| \le |ba|$, and so $|ab| = |ba|$. Thus if one
 of $|ab|$ and $|ba|$ is finite, then the other is finite; otherwise both
