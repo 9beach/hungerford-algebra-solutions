@@ -1,3 +1,9 @@
+---
+pagetitle: "A solutions manual for Algebra by Thomas W. Hungerford"
+author: 9beach@gmail.com
+
+---
+
 # A solutions manual for Algebra by Thomas W. Hungerford
 December 2017, for no special reason I started studying mathematics and writing
 a solutions manual for
