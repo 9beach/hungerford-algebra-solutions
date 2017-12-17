@@ -90,7 +90,7 @@ exists $a, b \in G$ such that $|a| = p, |b| = q$ and show that $G$ is cyclic.
 4\. If $f : G \to H$ is a homomorphism, $a \in G$, and $f(a)$ has finite order in
 $H$, then $|a|$ is infinite or $|f(a)|$ divides $|a|$.
 
-5\. Let $G$ be a multiplicative group of all nonsingular $2 × 2$ matrices with rational entries. Show that $a =
+5\. Let $G$ be a multiplicative group of all nonsingular $2\times 2$ matrices with rational entries. Show that $a =
 \begin{pmatrix}
  0 & -1\\
  0 & \phantom{-}1

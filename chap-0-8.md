@@ -27,11 +27,11 @@ one of its proper subsets [see Exercise 1].
 3\.&nbsp;$\quad$(a) $\mathbb{Z}$ is a denumerable set.
 \
 &nbsp;$\quad$(b) The set $\mathbb{Q}$ of rational numbers is denumerable.
-[_Hint:_ show that $|\mathbb{Z}| \le |\mathbb{Q}| \le |\mathbb{Z} ×
+[_Hint:_ show that $|\mathbb{Z}| \le |\mathbb{Q}| \le |\mathbb{Z} \times 
 \mathbb{Z}| = |\mathbb{Z}|$.]
 
 4\. If $A,A',B,B'$ are sets such that $|A| = |A'|$ and $|B| = |B'|$, then
-$|A × B| = |A' ×B'|$. If in addition $A\cap B = \emptyset = A'\cap B'$, then $|A\cup B| =
+$|A \times  B| = |A'\times B'|$. If in addition $A\cap B = \emptyset = A'\cap B'$, then $|A\cup B| =
 |A'\cup B'|$. Therefore multiplication and addition of cardinals is well-defined.
 
 5\. For all cardinal numbers $\alpha , \beta , \gamma$
@@ -49,7 +49,7 @@ if $\alpha \ne 1$, then there is no $\beta$ such that $\alpha \beta = 1$. Theref
 and division of cardinal numbers cannot be defined.
 
 6\. Let $I_n$ be as in Exercise 1. If $A\sim I_m$ and $B\sim I_n$ and $A\cap B=\emptyset$,
-then $(A\cup B)\sim I_{m+n}$ and $A×B\sim I_{mn}$. Thus if we identify $|A|$ with $m$
+then $(A\cup B)\sim I_{m+n}$ and $A\times B\sim I_{mn}$. Thus if we identify $|A|$ with $m$
 and $|B|$ with $n$, then $|A| + |B| = m + n$ and $|A||B| = mn$.
 
 7\. If $A\sim A', B\sim B'$, and $f: A \to B$ is injective, then there is an
