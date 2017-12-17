@@ -48,7 +48,7 @@ equivalence relation if and only if $S$ is a subgroup of $G$.
 6\. A nonempty finite subset of a group is a subgroup if and only if
 it is closed under the product in $G$.
 
-7\. If $n$ is a fixed integer, then $\{ kn \mid k \in \mathbb{Z}\} \subseteq
+7\. If $n$ is a fixed integer, then $\{ kn \mid k \in \mathbb{Z}\} \subset
 \mathbb{Z}$ is an additive subgroup of $\mathbb{Z}$, which is isomorphic to
 $\mathbb{Z}$.
 
