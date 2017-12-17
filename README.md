@@ -5,8 +5,8 @@ author: 9beach@gmail.com
 ---
 
 # A solutions manual for Algebra by Thomas W. Hungerford
-December 2017, for no special reason I started studying mathematics and writing
-a solutions manual for
+In 2017, for no special reason I started studying mathematics and writing a 
+solutions manual for
 [Algebra by Thomas W. Hungerford](https://www.amazon.com/Algebra-Graduate-Texts-Mathematics-v/dp/0387905189).
 
 ## Introduction: Prerequisites and Preliminaries
