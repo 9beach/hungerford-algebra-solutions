@@ -32,9 +32,9 @@ the additive group $\mathbb{Z}$, so $|ab| = |ba| = \aleph_0$. Therefore,
 $|ab| = |ba|$.
 \
 &nbsp;$\quad$
-By induction, $(cac^{-1})^m = cac^{-1}cac^{-1}\cdot\cdot\cdot cac^{-1} = ca^mc^{-1}$
-for all $n \in \mathbb{N}$. Suppose that $cac^{-1}$ has finite order $m$.
-Since
+By induction, $(cac^{-1})^m = cac^{-1}cac^{-1}$$\cdot\cdot\cdot$$cac^{-1} =
+ca^mc^{-1}$ for all $n \in \mathbb{N}$. Suppose
+that $cac^{-1}$ has finite order $m$. Since
 $$
 e = ca^mc^{-1} \Leftrightarrow c e c^{-1} = e = a^m,
 $$
