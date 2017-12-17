@@ -27,8 +27,8 @@ lattice.
 an example of a partially ordered set with two maximal elements.
 
 **_Proof._**&nbsp;$\quad$(a) Let $X, Y \in P(S)$. From
-$X \subseteq T, Y \subseteq T \iff X \cup Y \subseteq T$,
-and from $T \subseteq X, T \subseteq Y \iff T \subseteq X \cap Y$,
+$X \subset T, Y \subset T \iff X \cup Y \subset T$,
+and from $T \subset X, T \subset Y \iff T \subset X \cap Y$,
 $X \cap Y$ is the greatest lower bound and $X \cup Y$ is the least upper
 bound of $\left\{{X, Y}\right\}$. Therefore, $P(S)$ is a lattice. Given
 any set $A \in P(S), A \cup S = S$, so $S$ is a maximal element of $P(S)$.
@@ -65,7 +65,7 @@ $\text{-}\frac{1}1,\text{-}\frac{1}2,\text{-}\frac{2}1,\text{-}\frac{1}3,
 
 4\. Let $S$ be a set. A **choice function** for $S$ is a function $f$ from
 the set of all nonempty subsets of $S$ to $S$ such that $f(A) \in A$ for
-all $A \ne \emptyset, A\subseteq S$. Show that the Axiom of Choice is equivalent
+all $A \ne \emptyset, A\subset S$. Show that the Axiom of Choice is equivalent
 to the statement that every set $S$ has a choice function.
 
 **_Proof._**&nbsp;$\quad$When $S = \emptyset$, there does not exist nonempty
