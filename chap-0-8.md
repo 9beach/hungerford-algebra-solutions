@@ -1,12 +1,12 @@
 ---
-pagetitle: "Introduction: Prerequisites and Preliminaries - 8. Cardinal Numbers"
+pagetitle: "Introduction: 8. Cardinal Numbers"
 author: 9beach@gmail.com
 
 ---
 
 # A solutions manual for Algebra by Thomas W. Hungerford
-## Introduction: Prerequisites and Preliminaries - 8. Cardinal Numbers
-### Exercises
+## Introduction: 8. Cardinal Numbers
+
 
 1\. Let $I_0 \ne \emptyset$ and for each $n \in \mathbb{N}^*$
 let $I_n = \{1,2,3,...,n\}$.
@@ -63,7 +63,7 @@ $\aleph_0 < |R|$). [_Hint:_ It suffices to show that the open interval
 $(0, 1)$ is not denumerable by Exercise 8. You may assume each real number
 can be written as an infinite decimal. If $(0, 1)$ is denumerable there is a
 bijection $f : \mathbb{N}^* \to (0, 1)$. Construct an infinite decimal (real
-number) $.a_1 a_2$$\cdot\cdot\cdot$ in $(0, 1)$ such that $a_n$ is not the _n_ th digit in
+number) $.a_1 a_2\cdots$ in $(0, 1)$ such that $a_n$ is not the _n_ th digit in
 the decimal expansion of $f(n)$. This number cannot be in $Im\text{ }f$.]
 
 10\. If $\alpha , \beta$ are cardinals, define $\alpha \beta$ to be the cardinal number of the
@@ -80,7 +80,7 @@ set of all functions $B \to A$, where $A, B$ are sets such that $|A| = \alpha ,
 then $\alpha \gamma =\beta \gamma$.
 \
 &nbsp;$\quad$(e) For every finite cardinal $n$, $\alpha ^n =\alpha
-\alpha$$\cdot\cdot\cdot$$\alpha$ ($n$ factors). Hence
+\alpha\cdots\alpha$ ($n$ factors). Hence
 $\alpha ^n = \alpha$ if $\alpha$ is infinite.
 \
 &nbsp;$\quad$(f) If $P(A)$ is the power set of a set $A$, then $|P(A)| = 2^{|A|}$.

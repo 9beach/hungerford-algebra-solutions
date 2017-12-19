@@ -1,12 +1,12 @@
 ---
-pagetitle: "Chapter I: Groups - 3. Homomorphisms and Subgroups"
+pagetitle: "Chapter I: 2. Homomorphisms and Subgroups"
 author: 9beach@gmail.com
 
 ---
 
 # A solutions manual for Algebra by Thomas W. Hungerford
-## Chapter I: Groups - 2. Homomorphisms and Subgroups
-### Exercises
+## Chapter I: 2. Homomorphisms and Subgroups
+
 
 1\. If $f : G \to H$ is a homomorphism of groups, then $f(e_G) = e_H$
 and $f(a^{-1}) = f(a)^{-1}$ for all $a \in G$. Show by example that the

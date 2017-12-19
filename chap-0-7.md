@@ -1,12 +1,12 @@
 ---
-pagetitle: "Introduction: Prerequisites and Preliminaries - 7. The Axiom of Choice, Order and Zorn’s Lemma"
+pagetitle: "Introduction: 7. The Axiom of Choice, Order and Zorn’s Lemma"
 author: 9beach@gmail.com
 
 ---
 
 # A solutions manual for Algebra by Thomas W. Hungerford
-## Introduction: Prerequisites and Preliminaries - 7. The Axiom of Choice, Order and Zorn’s Lemma
-### Exercises
+## Introduction: 7. The Axiom of Choice, Order and Zorn’s Lemma
+
 
 1\. Let $(A, \le )$ be a partially ordered set and $B$ a nonempty subset. A
 lower bound of $B$ is an element $d\in A$ such that $d\le b$ for every $b\in B$.

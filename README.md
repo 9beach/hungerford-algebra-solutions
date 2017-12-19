@@ -5,18 +5,23 @@ author: 9beach@gmail.com
 ---
 
 # A solutions manual for Algebra by Thomas W. Hungerford
-In 2017, for no special reason I started studying mathematics and writing a 
+In 2017, for no special reason I started studying mathematics and writing a
 solutions manual for
 [Algebra by Thomas W. Hungerford](https://www.amazon.com/Algebra-Graduate-Texts-Mathematics-v/dp/0387905189).
 
-## Introduction: Prerequisites and Preliminaries
-7. [The Axiom of Choice, Order and Zorn’s Lemma](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-0-7.html)
-8. [Cardinal Numbers](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-0-8.html) _wip_
+_GitHub repository [here](https://github.com/9beach/hungerford-algebra-solutions),
+and HTML versions [here](https://rawgit.com/9beach/hungerford-algebra-solutions/master/README.html)._
 
-## Chapter I: Groups
-1. [Semigroups, Monoids and Groups](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-1-1.html) _wip_
-2. [Homomorphisms and Subgroups](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-1-2.html) _wip_
-3. [Cyclic Groups](https://rawgit.com/9beach/hungerford-algebra-solutions/master/chap-1-3.html) _wip_
+## Contents
+
+#### Introduction: Prerequisites and Preliminaries
+7. [The Axiom of Choice, Order and Zorn’s Lemma](chap-0-7.md)
+8. [Cardinal Numbers](chap-0-8.md) _wip_
+
+#### Chapter I: Groups
+1. [Semigroups, Monoids and Groups](chap-1-1.md) _wip_
+2. [Homomorphisms and Subgroups](chap-1-2.md) _wip_
+3. [Cyclic Groups](chap-1-3.md) _wip_
 4. Cosets and Counting
 5. Normality, Quotient Groups, and Homomorphisms
 6. Symmetric, Alternating, and Dihedral Groups
@@ -24,7 +29,7 @@ solutions manual for
 8. Direct Products and Direct Sums
 9. Free Groups, Free Products, Generators & Relations
 
-## Chapter II: The Structure of Groups
+#### Chapter II: The Structure of Groups
 1. Free Abelian Groups
 2. Finitely Generated Abelian Groups
 3. The Krull-Schmidt Theorem
@@ -34,7 +39,7 @@ solutions manual for
 7. Nilpotent and Solvable Groups
 8. Normal and Subnormal Series
 
-## Chapter III: Rings
+#### Chapter III: Rings
 1. Rings and Homomorphisms
 2. Ideals
 3. Factorization in Commutative Rings
@@ -42,7 +47,7 @@ solutions manual for
 5. Rings of Polynomials and Formal Power Series
 6. Factorization in Polynomial Rings
 
-## Chapter IV: Modules
+#### Chapter IV: Modules
 1. Modules, Homomorphisms and Exact Sequences
 2. Free Modules and Vector Spaces
 3. Projective and Injective Modules
@@ -51,7 +56,7 @@ solutions manual for
 6. Modules over a Principal Ideal Domain
 7. Algebras
 
-## Chapter V: Fields and Galois Theory
+#### Chapter V: Fields and Galois Theory
 1. Field Extensions
 2. The Fundamental Theorem
 3. Splitting Fields, Algebraic Closure and Normality
@@ -62,18 +67,18 @@ solutions manual for
 8. Cyclotomic Extensions
 9. Radical Extensions
 
-## Chapter VI: The Structure of Fields
+#### Chapter VI: The Structure of Fields
 1. Transcendence Bases
 2. Linear Disjointness and Separability
 
-## Chapter VII: Linear Algebra
+#### Chapter VII: Linear Algebra
 1. Matrices and Maps
 2. Rank and Equivalence
 3. Determinants
 4. Decomposition of a Single Linear Transformation and Similarity
 5. The Characteristic Polynomial, Eigenvectors and Eigenvalues
 
-## Chapter VIII: Commutative Rings and Modules
+#### Chapter VIII: Commutative Rings and Modules
 1. Chain Conditions
 2. Prime and Primary Ideals
 3. Primary Decomposition
@@ -82,7 +87,7 @@ solutions manual for
 6. Dedekind Domains
 7. The Hilbert Nullstellensatz
 
-## Chapter IX: The Structure of Rings
+#### Chapter IX: The Structure of Rings
 1. Simple and Primitive Rings
 2. The Jacobson Radical
 3. Semisimple Rings
@@ -90,7 +95,7 @@ solutions manual for
 5. Algebras
 6. Division Algebras
 
-## Chapter X: Categories
+#### Chapter X: Categories
 1. Functors and Natural Transformations
 2. Adjoint Functors
 3. Morphisms

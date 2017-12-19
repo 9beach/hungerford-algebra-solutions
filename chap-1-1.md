@@ -1,12 +1,12 @@
 ---
-pagetitle: "Chapter I: Groups - 1. Semigroups, Monoids, and Groups"
+pagetitle: "Chapter I: 1. Semigroups, Monoids, and Groups"
 author: 9beach@gmail.com
 
 ---
 
 # A solutions manual for Algebra by Thomas W. Hungerford
-## Chapter I: Groups - 1. Semigroups, Monoids, and Groups
-### Exercises
+## Chapter I: 1. Semigroups, Monoids, and Groups
+
 
 1\. Give examples other than those in the text of semigroups and monoids
 that are not groups.

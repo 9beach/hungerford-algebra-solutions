@@ -1,12 +1,12 @@
 ---
-pagetitle: "Chapter I: Groups - 3. Cyclic Groups"
+pagetitle: "Chapter I: 3. Cyclic Groups"
 author: 9beach@gmail.com
 
 ---
 
 # A solutions manual for Algebra by Thomas W. Hungerford
-## Chapter I: Groups - 3. Cyclic Groups
-### Exercises
+## Chapter I: 3. Cyclic Groups
+
 
 1\. Let $a$, $b$ be elements of a group $G$. Show that $|a| = |a^{-1}|$;
 $|ab| = |ba|$, and $|a| = |cac^{-1}|$ for all $c\in G$.
@@ -19,7 +19,7 @@ thus $\langle a \rangle = \langle a^{-1} \rangle$, and so $|a| = |a^{-1}|$.
 Suppose that $ab$ has finite order $m$. Since
 $$
 \begin{gathered}
-e = (ab)^m = abab\cdot\cdot\cdot ab = a(ba)^{m-1}b \Leftrightarrow \\
+e = (ab)^m = abab\cdots ab = a(ba)^{m-1}b \Leftrightarrow \\
 (ba)^{m-1} = a^{-1}e b^{-1} \Leftrightarrow (ba)^{m-1}b = a^{-1}
 \Leftrightarrow (ba)^m = e,
 \end{gathered}
@@ -32,9 +32,9 @@ the additive group $\mathbb{Z}$, so $|ab| = |ba| = \aleph_0$. Therefore,
 $|ab| = |ba|$.
 \
 &nbsp;$\quad$
-By induction, $(cac^{-1})^m = cac^{-1}cac^{-1}$$\cdot\cdot\cdot$$cac^{-1} =
-ca^mc^{-1}$ for all $n \in \mathbb{N}$. Suppose
-that $cac^{-1}$ has finite order $m$. Since
+By induction, $(cac^{-1})^m=cac^{-1}cac^{-1}\cdots cac^{-1}
+=ca^mc^{-1}$ for all $n \in \mathbb{N}$. Suppose that $cac^{-1}$ has finite
+order $m$. Since
 $$
 e = ca^mc^{-1} \Leftrightarrow c e c^{-1} = e = a^m,
 $$
@@ -121,7 +121,7 @@ $H$, then $H = Z(p^\infty )$; [see Exercise-I.2].
 \
 &nbsp;$\quad$(d) The only proper subgroups of $Z(p^\infty )$ are the finite
 cyclic groups $C_n = \langle \overline{1/p^n}\rangle (n = 1,2,...)$. Furthermore, $\langle 0\rangle
-= C_0 \le C_1 \le C_2 \le C_3 \le \cdot\cdot\cdot$.
+= C_0 \le C_1 \le C_2 \le C_3 \le\cdots$.
 \
 &nbsp;$\quad$(e) Let $x_1,x_2,...$ be elements of an abelian group $G$
 such that $|x_1| = p, px_2 = x_1, px_3 = x_2,...,px_{n+1} = x_n,....$ The
