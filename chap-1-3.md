@@ -1,6 +1,6 @@
 ---
 pagetitle: "Chapter I: 3. Cyclic Groups"
-author: 9beach@gmail.com
+author: https://github.com/9beach
 
 ---
 

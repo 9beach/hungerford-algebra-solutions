@@ -1,6 +1,6 @@
 ---
 pagetitle: "Introduction: 8. Cardinal Numbers"
-author: 9beach@gmail.com
+author: https://github.com/9beach
 
 ---
 

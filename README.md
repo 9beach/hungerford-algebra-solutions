@@ -1,6 +1,6 @@
 ---
 pagetitle: "A solutions manual for Algebra by Thomas W. Hungerford"
-author: 9beach@gmail.com
+author: https://github.com/9beach
 
 ---
 
@@ -17,6 +17,8 @@ and HTML versions [here](https://rawgit.com/9beach/hungerford-algebra-solutions/
 #### Introduction: Prerequisites and Preliminaries
 7. [The Axiom of Choice, Order and Zorn’s Lemma](chap-0-7.md)
 8. [Cardinal Numbers](chap-0-8.md) _wip_
+
+_Note that no exercises in 1.~6._
 
 #### Chapter I: Groups
 1. [Semigroups, Monoids and Groups](chap-1-1.md) _wip_

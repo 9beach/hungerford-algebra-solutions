@@ -1,6 +1,6 @@
 ---
 pagetitle: "Introduction: 7. The Axiom of Choice, Order and Zorn’s Lemma"
-author: 9beach@gmail.com
+author: https://github.com/9beach
 
 ---
 
