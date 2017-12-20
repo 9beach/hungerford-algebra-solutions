@@ -10,7 +10,8 @@ solutions manual for
 [Algebra by Thomas W. Hungerford](https://www.amazon.com/Algebra-Graduate-Texts-Mathematics-v/dp/0387905189).
 
 _GitHub repository [here](https://github.com/9beach/hungerford-algebra-solutions),
-and HTML versions [here](https://rawgit.com/9beach/hungerford-algebra-solutions/master/README.html)._
+HTML versions [here](https://rawgit.com/9beach/hungerford-algebra-solutions/master/README.html),
+and PDF version [here](https://github.com/9beach/hungerford-algebra-solutions/releases)._
 
 ## Contents
 
