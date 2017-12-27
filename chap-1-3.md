@@ -4,8 +4,8 @@ author: https://github.com/9beach
 
 ---
 
-# A solutions manual for Algebra by Thomas W. Hungerford
-## Chapter I: 3. Cyclic Groups
+# [A solutions manual for Algebra by Thomas W. Hungerford](README.md)
+### 3. Cyclic Groups
 
 
 1\. Let $a$, $b$ be elements of a group $G$. Show that $|a| = |a^{-1}|$;

@@ -4,8 +4,9 @@ author: https://github.com/9beach
 
 ---
 
-# A solutions manual for Algebra by Thomas W. Hungerford
-## Chapter I: 1. Semigroups, Monoids, and Groups
+# [A solutions manual for Algebra by Thomas W. Hungerford](README.md)
+## Chapter I: Groups
+### 1. Semigroups, Monoids, and Groups
 
 
 1\. Give examples other than those in the text of semigroups and monoids

@@ -4,8 +4,8 @@ author: https://github.com/9beach
 
 ---
 
-# A solutions manual for Algebra by Thomas W. Hungerford
-## Introduction: 8. Cardinal Numbers
+# [A solutions manual for Algebra by Thomas W. Hungerford](README.md)
+### 8. Cardinal Numbers
 
 
 1\. Let $I_0 \ne \emptyset$ and for each $n \in \mathbb{N}^*$

@@ -4,8 +4,9 @@ author: https://github.com/9beach
 
 ---
 
-# A solutions manual for Algebra by Thomas W. Hungerford
-## Introduction: 7. The Axiom of Choice, Order and Zorn’s Lemma
+# [A solutions manual for Algebra by Thomas W. Hungerford](README.md)
+## Introduction: Prerequisites and Preliminaries
+### 7. The Axiom of Choice, Order and Zorn’s Lemma
 
 
 1\. Let $(A, \le )$ be a partially ordered set and $B$ a nonempty subset. A

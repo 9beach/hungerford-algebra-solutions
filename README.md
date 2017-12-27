@@ -5,8 +5,8 @@ author: https://github.com/9beach
 ---
 
 # A solutions manual for Algebra by Thomas W. Hungerford
-In 2017, for no special reason I started studying mathematics and writing a
-solutions manual for
+In December 2017, for no special reason I started studying mathematics and
+writing a solutions manual for
 [Algebra by Thomas W. Hungerford](https://www.amazon.com/Algebra-Graduate-Texts-Mathematics-v/dp/0387905189).
 
 _GitHub repository [here](https://github.com/9beach/hungerford-algebra-solutions),
@@ -18,8 +18,6 @@ and PDF version [here](https://github.com/9beach/hungerford-algebra-solutions/re
 #### Introduction: Prerequisites and Preliminaries
 7. [The Axiom of Choice, Order and Zorn’s Lemma](chap-0-7.md)
 8. [Cardinal Numbers](chap-0-8.md) _wip_
-
-_Note that no exercises in 1.~6._
 
 #### Chapter I: Groups
 1. [Semigroups, Monoids and Groups](chap-1-1.md) _wip_

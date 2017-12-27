@@ -4,8 +4,8 @@ author: https://github.com/9beach
 
 ---
 
-# A solutions manual for Algebra by Thomas W. Hungerford
-## Chapter I: 2. Homomorphisms and Subgroups
+# [A solutions manual for Algebra by Thomas W. Hungerford](README.md)
+### 2. Homomorphisms and Subgroups
 
 
 1\. If $f : G \to H$ is a homomorphism of groups, then $f(e_G) = e_H$
