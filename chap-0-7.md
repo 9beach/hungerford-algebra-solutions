@@ -9,7 +9,7 @@ author: https://github.com/9beach
 ### 7. The Axiom of Choice, Order and Zorn’s Lemma
 
 
-1\. Let $(A, \le )$ be a partially ordered set and $B$ a nonempty subset. A
+**1\.** Let $(A, \le )$ be a partially ordered set and $B$ a nonempty subset. A
 lower bound of $B$ is an element $d\in A$ such that $d\le b$ for every $b\in B$.
 A **greatest lower bound (g.l.b.)** of $B$ is a lower bound $d_0$ of $B$ such
 that $d \le d_0$ for every other lower bound $d$ of $B$. A **least upper bound
@@ -43,7 +43,7 @@ by inclusion.
 &nbsp;$\quad$(c\) The natural numbers ordered in the traditional way, and
 the set $\{\emptyset, \{0, 2\}, \{1, 3\}\}$ ordered by inclusion.
 
-2\. A lattice $(A,\le )$ (see Exercise 1) is said to be **complete** if every
+**2\.** A lattice $(A,\le )$ (see Exercise 1) is said to be **complete** if every
 nonempty subset of $A$ has both a least upper bound and a greatest lower
 bound. A map of partially ordered sets $f :A\to B$ is said to preserve
 order if $a\le a'$ in $A$ implies $f(a) \le f(a')$ in $B$. Prove that an
@@ -56,15 +56,15 @@ $x\in P$, $f(a) \ge f(x)$ for all $x\in P$, and so $f(a)\ge x$ for all $x\in P$;
 thus $f(a) \ge a$, and so $a\in P$. But then $a\le f(a)$ implies $f(a)\le f(f(a))$;
 thus $f(a)\in A$, and so $f(a)\le a$. Therefore, $f(a) = a$.$\quad\square$
 
-3\. Exhibit a well-ordering of the set $\mathbb{Q}$ of rational numbers.
+**3\.** Exhibit a well-ordering of the set $\mathbb{Q}$ of rational numbers.
 
-**_Example._**&nbsp;$\quad$$\frac{1}1,\frac{1}2,\frac{2}1,\frac{1}3,\frac{3}1,
+**_Example._**&nbsp;$\quad$$0, \frac{1}1,\frac{1}2,\frac{2}1,\frac{1}3,\frac{3}1,
 \frac{1}4,\frac{2}3,\frac{3}2,\frac{4}1,\frac{1}5,\frac{5}1,\frac{1}6,...,$
 $\text{-}\frac{1}1,\text{-}\frac{1}2,\text{-}\frac{2}1,\text{-}\frac{1}3,
 \text{-}\frac{3}1, \text{-}\frac{1}4,\text{-}\frac{2}3,\text{-}\frac{3}2,
 \text{-}\frac{4}1,...$
 
-4\. Let $S$ be a set. A **choice function** for $S$ is a function $f$ from
+**4\.** Let $S$ be a set. A **choice function** for $S$ is a function $f$ from
 the set of all nonempty subsets of $S$ to $S$ such that $f(A) \in A$ for
 all $A \ne \emptyset, A\subset S$. Show that the Axiom of Choice is equivalent
 to the statement that every set $S$ has a choice function.
@@ -80,7 +80,7 @@ $S$ has a choice function. Conversely, If there is a choice function $f$,
 then $\langle f(i)\mid i\in I\rangle$ is an element of the product
 $\prod_{i\in I}X_i$. So the product is nonempty.$\quad\square$
 
-5\. Let $S$ be the set of all points $(x, y)$ in the plane with $y \le 0$.
+**5\.** Let $S$ be the set of all points $(x, y)$ in the plane with $y \le 0$.
 Define an ordering by $(x_1,y_1) \le (x_2,y_2) \iff x_1 = x_2$ and $y_1 \le
 y_2$. Show that this is a partial ordering of $S$, and that $S$ has
 infinitely many maximal elements.
@@ -89,7 +89,7 @@ infinitely many maximal elements.
 reflexive, antisymmetric, and transitive. The elements $(x, 0)$ are all
 maximal elements.
 
-6\. Prove that if all the sets in the family $\{A_i \mid i \in I \ne
+**6\.** Prove that if all the sets in the family $\{A_i \mid i \in I \ne
 \emptyset\}$ are nonempty, then each of the projections $\pi _k : \prod_{i\in I}
 {A_i \to A_k}$ is surjective.
 
@@ -98,10 +98,10 @@ is the collection of all functions $f : I \to \bigcup_{i \in I}A_i$ such
 that $f(i) \in A_i$ for all $i \in I$. Then each of the projections
 $\pi_k : \prod_{i\in I} {A_i \to A_k}$ is given by $f \mapsto f(k)$. It is
 obvious that each of the projections is well-defined, and $\text{dom }
-\pi_k=A_k$, and so injective.$\quad\square$
-_FIXME: maybe not rigorous._
+\pi_k=A_k$, and so injective.$\quad\square$\
+_**FIXME:**&nbsp;$\quad$maybe not rigorous._
 
-7\. Let $(A, \le )$ be a linearly ordered set. The **immediate successor** of
+**7\.** Let $(A, \le )$ be a linearly ordered set. The **immediate successor** of
 $a \in A$ (if it exists) is the least element in the set $\{x\in A\mid
 a<x\}$. Prove that if $A$ is well-ordered by $\le$, then at most one element
 of $A$ has no immediate successor. Give an example of a linearly ordered
