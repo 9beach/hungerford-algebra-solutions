@@ -8,15 +8,38 @@ author: https://github.com/9beach
 ### 8. Cardinal Numbers
 
 
-**1\.** Let $I_0 \ne \emptyset$ and for each $n \in \mathbb{N}^*$
-let $I_n = \{1,2,3,...,n\}$.
+**1\.** Let $I_0=\emptyset$ and for each $n \in \mathbb{N}^*$
+let $I_n = \{1,2,3,\ldots,n\}$.
 \
-&nbsp;$\quad$(a) $I_n$ is not equipollent to any of its proper subsets [*Hint:* induction.]
+&nbsp;$\quad$(a) $I_n$ is not equipollent to any of its proper subsets
+[*Hint:* induction.]
 \
 &nbsp;$\quad$(b) $I_m$ and $I_n$ are equipollent if and only if $m = n$.
 \
-&nbsp;$\quad$(c\) $I_m$ is equipollent to a subset of $I_n$ but $I_n$ is not equipollent to
-any subset of $I_m$ if and only if $m<n$.
+&nbsp;$\quad$(c\) $I_m$ is equipollent to a subset of $I_n$ but $I_n$ is not
+equipollent to any subset of $I_m$ if and only if $m<n$.
+
+**_Proof._**&nbsp;$\quad$(a) $I_0$ is not equipollent to any of its proper
+subsets. Suppose that $n+1>0$ be the least number such
+that $I_{n+1}$ is equipollent to some of its proper subsets. Then there is
+a bijection $f$ of $S\subsetneq I_{n+1}$ onto $I_{n+1}$ where $n+1\notin S$.
+Let
+$A=S\smallsetminus \{f^{-1}(n+1)\}$; let $B=I_{n+1}\smallsetminus \{n+1\}$.
+$B$ is nonempty since $I_{n+1}$ has a proper subset. Then
+$f\upharpoonright A$ is a bijection of $A\subsetneq I_n$
+onto $I_{n}$. A contradiction.
+\
+&nbsp;$\quad$(b) If $m=n$ then $I_m$ and $I_n$ are equipollent.
+If $n\ne m$ then since one is a proper subset of the other,
+$I_m$ and $I_n$ are not equipollent.
+\
+&nbsp;$\quad$(c\) If $m<n$ then $I_m$ is equipollent to $I_m$,
+a subset of $I_n$, and any subset of $I_m$ is a subset of $I_n$,
+so $I_n$ is not equipollent to any of them.
+Conversely, if $I_m$ is equipollent to a subset of $I_n$ then $m\le n$, and
+if $I_n$ is not equipollent to any subset of $I_m$ then $n>m$. Thus
+$m<n$.$\quad\square$
+
 
 **2\.**&nbsp;$\quad$(a) Every infinite set is equipollent to one of its proper
 subsets.
@@ -24,23 +47,41 @@ subsets.
 &nbsp;$\quad$(b) A set is finite if and only if it is not equipollent to
 one of its proper subsets [see Exercise 1].
 
+**_Proof._**&nbsp;$\quad$(a) Every infinite set has a denumerable
+subset, and every denumerable set has nonempty proper
+denumerable subset.
+\
+&nbsp;$\quad$(b) If a set is finite then the set is not
+equipollent to one of its proper subsets. Conversely, if a set is infinite
+then the set is equipollent to one of its proper subsets.$\quad\square$
+
 **3\.**&nbsp;$\quad$(a) $\mathbb{Z}$ is a denumerable set.
 \
 &nbsp;$\quad$(b) The set $\mathbb{Q}$ of rational numbers is denumerable.
 [_Hint:_ show that $|\mathbb{Z}| \le |\mathbb{Q}| \le |\mathbb{Z} \times
 \mathbb{Z}| = |\mathbb{Z}|$.]
 
-**4\.** If $A,A',B,B'$ are sets such that $|A| = |A'|$ and $|B| = |B'|$, then
-$|A \times  B| = |A'\times B'|$. If in addition $A\cap B = \emptyset = A'\cap B'$, then $|A\cup B| =
-|A'\cup B'|$. Therefore multiplication and addition of cardinals is well-defined.
+**_Proof._**&nbsp;$\quad$(a) $|\mathbb{N}|\le|\mathbb{Z}|\le 2\cdot
+|\mathbb{N}|=|\mathbb{N}|$. Therefore, $|\mathbb{Z}|=|\mathbb{N}|$.
+\
+&nbsp;$\quad$(b) Therefore, $|\mathbb{Q}|=|\mathbb{Z}|=
+|\mathbb{N}|$.$\quad\square$
 
-**5\.** For all cardinal numbers $\alpha , \beta , \gamma$
+**4\.** If $A,A',B,B'$ are sets such that $|A| = |A'|$ and $|B| = |B'|$, then
+$|A \times  B| = |A'\times B'|$. If in addition $A\cap B = \emptyset = A'\cap
+B'$, then $|A\cup B| = |A'\cup B'|$. Therefore multiplication and addition of
+cardinals is well-defined.
+
+**_Proof._**&nbsp;$|A\times B|=|A|\times|B|=|A'|\times|B'|=|A'\times
+B'|$.$\quad\square$
+
+**5\.** For all cardinal numbers $\alpha,\beta, \gamma$
 \
 &nbsp;$\quad$(a) $\alpha +\beta =\beta +\alpha$ and $\alpha \beta =\beta \alpha$ (commutative laws).
 \
 &nbsp;$\quad$(b) $(\alpha +\beta )+\gamma =\alpha +(\beta +\gamma )$ and $(\alpha \beta )\gamma =\alpha (\beta \gamma )$ (associative laws).
 \
-&nbsp;$\quad$(c\) $\alpha (\beta +\gamma )=\alpha \beta +\alpha \gamma$ and $(\alpha +\beta )\gamma =\alpha \gamma +\beta \gamma$ (distributivelaws).
+&nbsp;$\quad$(c\) $\alpha (\beta +\gamma )=\alpha \beta +\alpha \gamma$ and $(\alpha +\beta )\gamma =\alpha \gamma +\beta \gamma$ (distributive laws).
 \
 &nbsp;$\quad$(d) $\alpha +0=\alpha$ and $\alpha 1=\alpha$.
 \
