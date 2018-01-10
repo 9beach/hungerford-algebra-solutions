@@ -99,7 +99,7 @@ is the collection of all functions $f : I \to \bigcup_{i \in I}A_i$ such
 that $f(i) \in A_i$ for all $i \in I$. Then each of the projections
 $\pi_k : \prod_{i\in I} {A_i \to A_k}$ is given by $f \mapsto f(k)$. It is
 obvious that each of the projections is well-defined, and $\text{dom }
-\pi_k=A_k$, and so injective.$\quad\square$\
+\pi_k=A_k$, and so injective.$\quad\square$
 
 **7\.** Let $(A, \le )$ be a linearly ordered set. The **immediate successor**
 of $a \in A$ (if it exists) is the least element in the set $\{x\in A\mid
