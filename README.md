@@ -17,7 +17,7 @@ and PDF version [here](https://github.com/9beach/hungerford-algebra-solutions/re
 
 #### Introduction: Prerequisites and Preliminaries
 7. [The Axiom of Choice, Order and Zorn’s Lemma](chap-0-7.md)
-8. [Cardinal Numbers](chap-0-8.md) _wip_
+8. [Cardinal Numbers](chap-0-8.md)
 
 #### Chapter I: Groups
 1. [Semigroups, Monoids and Groups](chap-1-1.md) _wip_
