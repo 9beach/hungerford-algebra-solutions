@@ -130,9 +130,8 @@ given by $(x,y)\mapsto nf(x) - n + g(y)$.$\quad\square$
 an injective map $A'\to B'$. Therefore the relation $\le$ on cardinal
 numbers is well defined.
 
-**_Proof._**&nbsp;$\quad$Let $g:A\to A'$ be bijective;
-let $g:A\to A'$ be bijective; let $h:A'\to B'$ be injective. Then
-we have a function $h\circ f\circ g^{-1}$ of $A'$ into $B'$.$\quad\square$
+**_Proof._**&nbsp;$\quad$Let $g:A\to A'$ and $h:B\to B'$ be bijective.
+Then we have an injective map $h\circ f\circ g^{-1}:A'\to B'$.$\quad\square$
 
 **8\.** An infinite subset of a denumerable set is denumerable.
 
