@@ -49,7 +49,9 @@ one of its proper subsets [see Exercise 1].
 **_Proof._**&nbsp;$\quad$(a) By Theorem 8.8, every infinite set has
 a denumerable subset, Thus for a infinite set $A$, there is a denumerable
 $S\subset A$, and a finite $T\subsetneq S$. So $|A|=|S|\cup|A\smallsetminus
-S|=|S\smallsetminus T|\cup|A\smallsetminus S|=|(S\smallsetminus T)\cup(A\smallsetminus S)|$ where $(S\smallsetminus T)\cup(A\smallsetminus S)\subsetneq A$.
+S|=|S\smallsetminus T|\cup|A\smallsetminus S|=|(S\smallsetminus
+T)\cup(A\smallsetminus S)|$ where $(S\smallsetminus T)\cup(A\smallsetminus
+S)\subsetneq A$.
 \
 &nbsp;$\quad$(b) If a set is finite then the set is not
 equipollent to one of its proper subsets. Conversely, if a set is infinite
@@ -144,8 +146,8 @@ $\aleph_0 < |R|$). [_Hint:_ It suffices to show that the open interval
 $(0, 1)$ is not denumerable by Exercise 8. You may assume each real number
 can be written as an infinite decimal. If $(0, 1)$ is denumerable there is a
 bijection $f :\mathbb{N}^\ast\to (0, 1)$. Construct an infinite decimal (real
-number) $.a_1 a_2\cdots$ in $(0, 1)$ such that $a_n$ is not the _n_ th digit in
-the decimal expansion of $f(n)$. This number cannot be in $\text{Im }f$.]
+number) $.a_1 a_2\cdots$ in $(0, 1)$ such that $a_n$ is not the _n_ th digit
+in the decimal expansion of $f(n)$. This number cannot be in $\text{Im }f$.]
 
 **_Proof._**&nbsp;$\quad$Let us assume that the set $\mathbb{R}$ of all reals
 is denumerable, and let $c_0,c_1,\ldots,c_n,\ldots,n \in \mathbb{N}$ be an
@@ -160,16 +162,18 @@ We shall find a real number different from each $c_n$.
 \
 &nbsp;$\quad$Let $f:n\mapsto$ the
 least element of $\{x\in \mathbb{N}: 0\le x\le 9, x$ is not $c_n^n\}$.
-Then $0.f(0)f(1)f(2)f(3)\cdots\notin \mathbb{R}$. A contradiction.$\quad\square$
+Then $0.f(0)f(1)f(2)f(3)\cdots\notin \mathbb{R}$. A
+contradiction.$\quad\square$
 
-**10\.** If $\alpha ,\beta$ are cardinals, define $\alpha^\beta$ to be the cardinal number of the
-set of all functions $B\to A$, where $A, B$ are sets such that $|A| =\alpha ,
-|B| =\beta$.
+**10\.** If $\alpha ,\beta$ are cardinals, define $\alpha^\beta$ to be the
+cardinal number of the set of all functions $B\to A$, where $A, B$ are sets
+such that $|A|=\alpha,|B|=\beta$.
 \
 &nbsp;$\quad$(a) $\alpha^\beta$ is independent of the choice of $A, B$.
 \
 &nbsp;$\quad$(b) $\alpha^{\beta+\gamma} = (\alpha^\beta )(\alpha^\gamma)$;
-$(\alpha\beta)^\gamma = (\alpha^\gamma )(\beta^\gamma )$; $\alpha^{\beta\gamma}= (\alpha^\beta)^\gamma$.
+$(\alpha\beta)^\gamma = (\alpha^\gamma )(\beta^\gamma )$;
+$\alpha^{\beta\gamma}= (\alpha^\beta)^\gamma$.
 \
 &nbsp;$\quad$(c\) If $\alpha\le\beta$, then $\alpha^\gamma\le\beta^\gamma$.
 \
