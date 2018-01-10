@@ -153,8 +153,7 @@ enumeration of $\mathbb{R}$.
 $$
 \begin{aligned}
 c_0=0.c_0^0 c_1^0 c_2^0 c_3^0 \cdots\\
-c_1=0.c_0^1 c_1^1 c_2^0 c_3^1 \cdots\\
-c_2=0.c_0^2 c_1^2 c_2^2 c_3^2 \cdots\\
+c_n=0.c_0^n c_1^n c_2^n c_3^n \cdots\\
 \end{aligned}
 $$
 We shall find a real number different from each $c_n$.
