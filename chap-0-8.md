@@ -158,7 +158,7 @@ c_n=0.c_0^n c_1^n c_2^n c_3^n \cdots\\
 $$
 We shall find a real number different from each $c_n$.
 \
-&nbsp;$\quad$Let $f$ be a function of $\mathbb{N}$ given by $n\mapsto$ the
+&nbsp;$\quad$Let $f:n\mapsto$ the
 least element of $\{x\in \mathbb{N}: 0\le x\le 9, x$ is not $c_n^n\}$.
 Then $0.f(0)f(1)f(2)f(3)\cdots\notin \mathbb{R}$. A contradiction.$\quad\square$
 
@@ -197,8 +197,8 @@ $A^{B\cup C}$ given by $(f, g)\mapsto f\cup g$.
 There is a bijection of $A^C\times B^C$ onto
 $(A\times B)^C$ given by $(f, g)\mapsto h$ where $(f(c), g(c))=h(c)$
 for all $c\in C$. There is a bijection of $A^{B\times C}$ onto
-$(A^B)^C$ given by $f\mapsto g$ where $g(c)=h$ such that $h(b)=f(b,c)$
-for all $a\in A, b\in B, c\in C$.
+$(A^B)^C$ given by $f\mapsto g$ where $g(c)=h$ such that $h\in A^B$ and
+$h(b)=f(b,c)$ for all $a\in A, b\in B, c\in C$.
 \
 &nbsp;$\quad$(c\) Let A, B, C be sets where $A\subset B$.
 If $f\in A^C$ then $f\in B^C$. If $g\in B^C$, and $\text{Im }g\cap
