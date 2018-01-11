@@ -3,6 +3,7 @@ HTMLS		= $(SRCS:.md=.html)
 PDF		= $(shell basename $(shell pwd)).pdf
 PDF_KINDLE	= $(shell basename $(shell pwd))-kindle.pdf
 
+
 %.html: %.md
 	cat $< | sed -e 's:(\([^)]*\).md):(\1.html):'\
 	       	-e 's:^\*\*\([0-9][0-9]*\.*[0-9]*\).*\.\*\*:<span \
