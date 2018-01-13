@@ -20,7 +20,7 @@ and PDF version [here](https://github.com/9beach/hungerford-algebra-solutions/re
 8. [Cardinal Numbers](chap-0-8.md)
 
 #### Chapter I: Groups
-1. [Semigroups, Monoids and Groups](chap-1-1.md) _wip_
+1. [Semigroups, Monoids and Groups](chap-1-1.md)
 2. [Homomorphisms and Subgroups](chap-1-2.md) _wip_
 3. [Cyclic Groups](chap-1-3.md) _wip_
 4. Cosets and Counting
