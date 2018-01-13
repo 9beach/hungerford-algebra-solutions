@@ -59,11 +59,12 @@ $f(a) = a$.$\quad\square$
 
 **3\.** Exhibit a well-ordering of the set $\mathbb{Q}$ of rational numbers.
 
-**_Example._**&nbsp;$\quad$$0, \frac{1}1,\frac{1}2,\frac{2}1,\frac{1}3,
-\frac{3}1,\frac{1}4,\frac{2}3,\frac{3}2,\frac{4}1,\frac{1}5,\frac{5}1,
-\frac{1}6,...,$ $\text{-}\frac{1}1,\text{-}\frac{1}2,\text{-}\frac{2}1,
-\text{-}\frac{1}3,\text{-}\frac{3}1, \text{-}\frac{1}4,\text{-}\frac{2}3,
-\text{-}\frac{3}2,\text{-}\frac{4}1,...$
+**_Example._**&nbsp;$\quad$$0, \frac{1}1, \frac{1}2, \frac{2}1, \frac{1}3,
+\frac{3}1, \frac{1}4, \frac{2}3, \frac{3}2, \frac{4}1, \frac{1}5, \frac{5}1,
+\frac{1}6,...,$ $\text{-} \frac{1}1, \text{-} \frac{1}2,$
+$\text{-} \frac{2}1,$ $\text{-} \frac{1}3,$
+$\text{-} \frac{3}1,$ $\text{-} \frac{1}4, \text{-}
+\frac{2}3, \text{-} \frac{3}2,$ $\text{-} \frac{4}1,...$
 
 **4\.** Let $S$ be a set. A **choice function** for $S$ is a function $f$ from
 the set of all nonempty subsets of $S$ to $S$ such that $f(A) \in A$ for
