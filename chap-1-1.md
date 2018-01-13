@@ -216,7 +216,7 @@ $a^{n+2}bb^{n+1}=aba^{n+1}b^{n+1}$ $\Leftrightarrow$ $aa^{n+1}b=aba^{n+1}$
 $\Leftrightarrow$ $a^{n+1}b=ba^{n+1}$.
 Similarly, $ab^{n+1}=b^{n+1}a$. Finally,
 $b(ab^n)=b(b^na)=b^{n+1}a=ab^{n+1}$ $\Leftrightarrow$
-$bab^n=abb^n$ $\Leftrightarrow$ $ab=bn$.
+$bab^n=abb^n$ $\Leftrightarrow$ $ab=ba$.
 \
 &nbsp;$\quad$_Case (v)$\Rightarrow$(i)._  $(ab)^n = a^nb^n$ holds
 for $n=0$, and $n=1$ in all groups, and $0$ and $1$ are two consecutive
