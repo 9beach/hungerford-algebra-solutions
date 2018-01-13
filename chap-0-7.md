@@ -73,7 +73,8 @@ to the statement that every set $S$ has a choice function.
 
 **_Proof._**&nbsp;$\quad$When $S = \emptyset$, there is no nonempty
 subset of $S$; vacuously true, so we suppose $S$ is nonempty.
-Let $X=\{X_i\mid i\in I\}$ be the family of all nonempty subsets of $S$.
+Let $X=\{X_i\mid i\in I\}$ be the family of all nonempty subsets of $S$
+indexed by a nonempty set $I$.
 Suppose that the Axiom of Choice is true, then we have a product
 $\prod_{i\in I}X_i\neq\emptyset$, and there is a sequence
 $\langle x_i\in X_i\mid i\in I\rangle$, thus we have a function
@@ -87,20 +88,21 @@ Define an ordering by $(x_1,y_1) \le (x_2,y_2) \iff x_1 = x_2$ and $y_1 \le
 y_2$. Show that this is a partial ordering of $S$, and that $S$ has
 infinitely many maximal elements.
 
-**_Sketch of proof._**&nbsp;$\quad$It's easy to show that the relation on $S$
-is reflexive, antisymmetric, and transitive. The elements $(x, 0)$ are all
-maximal elements.
+**_Proof._**&nbsp;$\quad$It is easily seen that that the relation
+on $S$ is reflexive, antisymmetric, and transitive, and that the elements
+$(x, 0)$ are all maximal elements.$\quad\square$
 
 **6\.** Prove that if all the sets in the family $\{A_i \mid i \in I \ne
 \emptyset\}$ are nonempty, then each of the projections $\pi_k:
 \prod_{i\in I} {A_i\to A_k}$ is surjective.
 
 **_Proof._**&nbsp;$\quad$By definition, the product $\prod_{i\in I}{A_i}$
-is the collection of all functions $f : I \to \bigcup_{i \in I}A_i$ such
+is the set of all functions $f : I \to \bigcup_{i \in I}A_i$ such
 that $f(i) \in A_i$ for all $i \in I$. Then each of the projections
-$\pi_k : \prod_{i\in I} {A_i \to A_k}$ is given by $f \mapsto f(k)$. It is
-obvious that each of the projections is well-defined, and $\text{dom }
-\pi_k=A_k$, and so injective.$\quad\square$
+$\pi_k : \prod_{i\in I} {A_i \to A_k}$ is given by $f \mapsto f(k)$.
+Since for each $k$, the product $\prod_{i\in I}{A_i}$ has all functions $f$
+such that $f(k)\in A_k$, $\text{dom } \pi_k=A_k$, and so
+$\pi_k$ is surjective.$\quad\square$
 
 **7\.** Let $(A, \le )$ be a linearly ordered set. The **immediate successor**
 of $a \in A$ (if it exists) is the least element in the set $\{x\in A\mid
@@ -109,10 +111,10 @@ of $A$ has no immediate successor. Give an example of a linearly ordered
 set in which precisely two elements have no immediate successor.
 
 **_Proof._**&nbsp;$\quad$Given any $a \in A$. If $a$ is not a maximal element
-of $A$, then $X_a=\{x \in A\mid x>a\}$ is nonempty; by
-well-orderedness, $X_a$ has a least element $m$, which is the immediate
+of $A$, then $X_a=\{x \in A\mid x>a\}$ is nonempty, and by
+well-orderedness, $X_a$ has a least element $m$ which is the immediate
 successor of $a$. Otherwise, $a$ has no immediate successor; given any two
-maximal elements $M$ and $N$, either $M < N, M = N$, or $N < M$; thus
+maximal elements $M$ and $N$, then either $M < N, M = N$, or $N < M$; thus
 $M = N$.$\quad\square$
 
 **_Example._**&nbsp;$\quad$Consider $\left[0,1\right]\cup\left(1.1,2\right]
