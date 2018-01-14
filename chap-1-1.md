@@ -123,13 +123,12 @@ Let $a_1, a_2, b_1, b_2\in\mathbb{Q}$.
 If $\overline{a}_1=\overline{a}_2$ and
 $\overline{b}_1=\overline{b}_2$, then $a_1-a_2=m$,
 $b_1-b_2=n$ for some $m,n\in\mathbb{Z}$. $(a_1+b_1)-(b_2+b_2)$ $=$
-$m+n$. Thus $a_1+b_1\sim b_2+b_2$.
+$m+n$. Thus $a_1+b_1\sim a_2+b_2$.
 \
-&nbsp;$\quad$(b) By Theorem 1.5, the set $\mathbb{Q}/\mathbb{Z}$ of
-equivalence classes forms an abelian group. If
+&nbsp;$\quad$(b) By Theorem 1.5, the set forms an abelian group. If
 $1/m=1/n+k$ for some positive integers $m,n$, and for an integer $k$,
 then $k=0$, thus $m=n$, and so
-the set $\{\overline{1/{n}}\in\mathbb{Q}/\mathbb{Z}\mid n\in\mathbb{N}^\ast\}$
+$\{\overline{1/{n}}\in\mathbb{Q}/\mathbb{Z}\mid n\in\mathbb{N}^\ast\}$
 is countable.$\quad\square$
 
 **9\.** Let $p$ be a fixed prime. Let $R_p$ be the set of all those rational
@@ -164,9 +163,9 @@ and $b=p^i$ for some $i\ge 0$, then clearly, $d=p^j$ for some $j\ge 0$.
 Thus $Z(p^\infty )$ is a subset of the group $\mathbb{Q}/\mathbb{Z}$.
 It is easily seen that $Z(p^\infty)$ is closed under the addition
 operation of $\mathbb{Q}/\mathbb{Z}$, and has an identity element
-$\overline{0}=\overline{0/p}$, and has an inverse element of
-$\overline{-a/b}$ for each $\overline{a/b}$. Similarly to exercise 8 (b),
-the set $\{\overline{1/p^n}\in Z(p^\infty)\mid n\in\mathbb{N}^\ast\}$ is
+$\overline{0}=\overline{0/p}$, and there is an inverse element
+$-\overline{a/b}$ of each $\overline{a/b}$. Similarly to exercise 8 (b),
+$\{\overline{1/p^n}\in Z(p^\infty)\mid n\in\mathbb{N}^\ast\}$ is
 countable.$\quad\square$
 
 **11\.** The following conditions on a group $G$ are equivalent: (i) $G$ is
@@ -210,9 +209,10 @@ Let $a,b\in G$. Then $(ab)^n = a^nb^n, (ab)^{n+1}=a^{n+1}b^{n+1},
 (ab)^{n+2}=a^{n+2}b^{n+2}$ for some $n\in\mathbb{Z}$.
 $a^{n+1}b^{n+1}$ $=$ $(ab)^{n+1}$ $=$ $(ab)^n(ab)$ $=$ $a^nb^nab$
 $\Leftrightarrow$ $a^{-n}a^{n+1}b^{n+1}b^{-1}=a^{-n}a^nb^nabb^{-1}$
-$\Leftrightarrow$ $ab^n=b^na$. Since this holds for all $a,b\in G$, $ba^n=a^nb$.
-$a^{n+2}b^{n+2}=(ab)(ab)^{n+1}=aba^{n+1}b^{n+1}$ $\Leftrightarrow$
-$a^{n+2}bb^{n+1}=aba^{n+1}b^{n+1}$ $\Leftrightarrow$ $aa^{n+1}b=aba^{n+1}$
+$\Leftrightarrow$ $ab^n=b^na$. By replacing $a,b$ with $b,a$,
+$ba^n=a^nb$. $a^{n+2}b^{n+2}=(ab)(ab)^{n+1}$ $=$
+$aba^{n+1}b^{n+1}$ $\Leftrightarrow$ $a^{n+2}bb^{n+1}=aba^{n+1}b^{n+1}$
+$\Leftrightarrow$ $aa^{n+1}b=aba^{n+1}$
 $\Leftrightarrow$ $a^{n+1}b=ba^{n+1}$.
 Similarly, $ab^{n+1}=b^{n+1}a$. Finally,
 $b(ab^n)=b(b^na)=b^{n+1}a=ab^{n+1}$ $\Leftrightarrow$
@@ -246,7 +246,8 @@ Define the relation $a\sim b$ if and only if $a=b$ or $a=b^{-1}$.
 It is easily seen that $\sim$ is an equivalence relation on $G$. Notice that
 for each $a\in G$, the order of $\overline{a}$ is at most $2$,
 and that if $a\neq a^{-1}$, then $|\overline{a}|=2$.
-Now consider the set $S=\{\overline{a}\mid a\neq e, a\in G\}$. If $G$ is finite, and if there is no element $a\neq e$ such that $a^2=e$, i.e.,
+Now consider $S=\{\overline{a}\mid a\neq e, a\in G\}$. If $G$ is finite, and
+if there is no element $a\neq e$ such that $a^2=e$, i.e.,
 $a=a^{-1}$, then
 clearly, $\bigcup S=G \smallsetminus\{e\}$ has an even order; thus $G$ has
 an odd order. Therefore, if $G$ is finite, and if $G$ has an even order,
