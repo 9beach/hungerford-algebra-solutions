@@ -77,7 +77,7 @@ Let $X=\{X_i\mid i\in I\}$ be the family of all nonempty subsets of $S$
 indexed by a nonempty set $I$.
 Suppose that the Axiom of Choice is true, then we have a product
 $\prod_{i\in I}X_i\neq\emptyset$, and there is a sequence
-$\langle x_i\in X_i\mid i\in I\rangle$, thus we have a function
+$\langle x_i\in X_i\mid i\in I\rangle$, thus we have the function
 $f(i)=x_i$. So every set $S$ has a choice function. Conversely, If there is a
 choice function $f$, then $\langle f(i)\in X_i\mid i\in I\rangle$ is an
 element of the product $\prod_{i\in I}X_i$ for all nonempty $X_i\subset S$.

@@ -16,7 +16,7 @@ first conclusion may be false if $G, H$ are monoids that are note groups.
 Thus $f(e_G)=e_H.$ $f(aa^{-1})=f(e_G)=e_H$ $=$ $f(a)f(a^{-1})=f(a^{-1}a)$
 $=f(a^{-1})f(a)$. Thus $f(a^{-1})=f(a)^{-1}$.
 Consider $Z_3$ and $Z_6$ under mutiplication. They form abelian monoids.
-Let a function $f:Z_3\to Z_6$ given by $f(\overline{0})=\overline{0}$,
+Let $f:Z_3\to Z_6$ be the function given by $f(\overline{0})=\overline{0}$,
 $f(\overline{1})=\overline{4}$, and $f(\overline{2})= \overline{2}$.
 $f(ab)=f(a)f(b)$ for each $a,b\in Z_3$, but
 $f(\overline{1})\neq \overline{1}$.$\quad\square$
@@ -124,7 +124,7 @@ some $m$, thus $e\in S$, and so $a^{-1}\in S$.$\quad\square$
 $\mathbb{Z}$.
 
 **_Proof._**&nbsp;$\quad$Let $K$ be the set. Clearly, $K$ is
-an additive subgroup of $\mathbb{Z}$, and a function $f:\mathbb{Z}\to K$
+an additive subgroup of $\mathbb{Z}$, and the function $f:\mathbb{Z}\to K$
 given by $n\mapsto kn$ is an isomorphism.$\quad\square$
 
 **8\.** The set $\{\sigma \in S_n \mid \sigma (n) = n\}$ is a subgroup of
@@ -229,9 +229,9 @@ given by $x\mapsto x^{-1}$. $\text{Aut } \mathbb{Z}=\{1_{\mathbb{Z}},
 isomorphism. Similarly to the previous, $\text{Aut } {Z_6}=\{1_{Z_6},
 -1_{Z_6}\}$. $\{(1_{Z_6}, 0), (-1_{Z_6}, 1)\}$ is an isomorphism.
 Let $x\in S=\{1,3,5,7\}\subset Z_8$. Then since $x$ and $8$ are relatively
-prime, $xi\equiv xj$ (mod 8)
-$\Leftrightarrow i\equiv j$ (mod 8), thus every $xn$ (mod 8) for $0\le n <8$
-is different to each other, and so $x$ is
+prime, $xi\equiv xj$ (mod $8$)
+$\Leftrightarrow i\equiv j$ (mod $8$), thus every $xn$ (mod $8$) for
+$0\le n<8$ is different to each other, and so $x$ is
 a generator of $Z_8$, whence $\text{Aut }Z_8=$
 $\{1_{Z_8},3_{Z_8},5_{Z_8},7_{Z_8}\}$ each element given by
 $n\mapsto n$, $n\mapsto 3n$, $n\mapsto 5n$, $n\mapsto 7n$ respectively.
@@ -240,17 +240,18 @@ is an isomorphism. Similarly to the previous, $\text{Aut } Z_p=\{1_{Z_p},
 2_{Z_p},\ldots,(p-1)_{Z_p}\}$. If $p=2$, then $\text{Aut } Z_p$ is a
 cyclic group of order 1. If $p>2$, then $p$ has a primitive root modulo $n$.
 Thus if we let $r$ be a primitive root modulo $n$ of $p$, then $r_{Z_p}$ is
-a generator of $\text{Aut } Z_p$. Therefore, a function of $\text{Aut } Z_p$
+a generator of $\text{Aut } Z_p$. Therefore, the function of $\text{Aut } Z_p$
 to $Z_{p-1}$ given by $\overline{r^n}_{Z_p}\mapsto \overline{n}$ is an
 isomorphism.
 \
 &nbsp;&nbsp;$\quad$(c\) $(a, n)=1$ if and only if $\langle a\rangle=Z_n$
-for $0< a<n$ , and a function of $Z_n$ given by
+for $0< a<n$, and the function of $Z_n$ given by
 $\overline{x}\mapsto \overline{ax}$ for $x\in\mathbb{Z}$ is an automorphism.
 Consider $S=\{a\in Z_n\mid (a,n) = 1\}$ under multiplication. $0\notin S$.
 $1\in S$.
-Let $a,b\in S$. $(ab, n) = 1$, thus $ab\in S$. Since $S$ is finite, $a^p=a^q$
-for some $0<p<q$ $\Leftrightarrow$ $a^{q-p-1}a$ $=$ $aa^{p-q-1}=1$.
+Let $a,b\in S$. $(ab, n) = 1$, thus $ab\in S$. Since $S$ is finite,
+$a^p\equiv a^q$ (mod $n$) for some $0<p<q$, and so
+$a^{q-p-1}a$ $\equiv$ $aa^{p-q-1}\equiv 1$ (mod $n$).
 Since $a\neq 0$, ${a^{q-p-1}}\in S$. Therefore, $S$ is a group, and so is
 $\text{Aut }Z_n$.$\quad\square$
 
@@ -318,7 +319,7 @@ subgroup of $G$. $\bigcap_{i \in I}H_i\subset t\}$. Since $G\in T$,
 $T$ is nonempty, and so $T$ has a nonempty minimal element under set
 inclusion. Let $A$ and $B$ be minimal elements of $T$. If $A\ne B$, then
 $A\cap B\in T$ and $A\cap B\subsetneq A$,
-a contradiction. Thus $T$ has a smallest element $A$, and by definition,
+a contradiction. Thus $T$ has the smallest element $A$, and by definition,
 $A=\langle\bigcup_{i \in I}H_i\rangle$.
 \
 &nbsp;&nbsp;$\quad$(b)

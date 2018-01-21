@@ -27,8 +27,8 @@ For each $x\in S$, and for each $f, g$ and $h\in M(S, G)$,
 $((f+g)+h)(x)$ $=$ $(f+g)(x)+h(x)$ $=$ $(f(x)+g(x))+h(x)$ $=$
 $f(x)+(g(x)+h(x))$ $=$ $f(x)+(g+h)(x)$ $=$ $(f+(g+h))(x)$; thus associative.
 Similarly, $f+g=g+f$ if $G$ is abelian.
-Let $0_S$ be a function in $M(S,G)$ given by
-$x\mapsto e$; for each $f\in M(S,G)$, let $-f$ be a function in $M(S,G)$
+Let $0_S$ be the function in $M(S,G)$ given by
+$x\mapsto e$; for each $f\in M(S,G)$, let $-f$ be the function in $M(S,G)$
 given by $x\mapsto f(x)^{-1}$. Then, it's clear that $0_S$ is an identity
 element, and $-f$ is an inverse element of $f\in M(S, G)$.$\quad\square$
 

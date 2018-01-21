@@ -186,7 +186,7 @@ $\alpha ^n =\alpha$ if $\alpha$ is infinite.
 &nbsp;$\quad$(f) If $P(A)$ is the power set of a set $A$,
 then $|P(A)|=2^{|A|}$.
 
-**_Proof._**&nbsp;$\quad$(a) Let $A, B, C$, and $D$ be sets such that
+**_Proof._**&nbsp;$\quad$(a) Let $A, B, C$, and $D$ be the sets such that
 $A\sim C$ and $B\sim D$; let $f:A\to C$ and $g:B\to D$ be bijective.
 For each  $h:B\to A$ in $A^B$, there is a unique
 function $k:D\to A$ in $A^D$ given by
