@@ -21,7 +21,7 @@ and PDF version [here](https://github.com/9beach/hungerford-algebra-solutions/re
 
 #### Chapter I: Groups
 1. [Semigroups, Monoids and Groups](chap-1-1.md)
-2. [Homomorphisms and Subgroups](chap-1-2.md) _wip_
+2. [Homomorphisms and Subgroups](chap-1-2.md)
 3. [Cyclic Groups](chap-1-3.md) _wip_
 4. Cosets and Counting
 5. Normality, Quotient Groups, and Homomorphisms
