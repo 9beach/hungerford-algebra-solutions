@@ -27,13 +27,14 @@ lattice.
 &nbsp;$\quad$(c\) Give an example of a lattice with no maximal element and
 an example of a partially ordered set with two maximal elements.
 
-**_Proof._**&nbsp;$\quad$(a) Let $X, Y \in P(S)$. From
-$X \subset T, Y \subset T \iff X \cup Y \subset T$,
-and from $T \subset X, T \subset Y \iff T \subset X \cap Y$,
-$X \cap Y$ is the greatest lower bound and $X \cup Y$ is the least upper
+**_Proof._**&nbsp;$\quad$(a) Let $X,Y$, and $T\in P(S)$.
+$X \subset T$ and $Y \subset T$ if and only if $X \cup Y \subset T$,
+and $T \subset X$ and $T \subset Y$ if and only if $T \subset X \cap Y$.
+Thus $X \cap Y\in P(S)$ is the greatest lower bound and
+$X \cup Y\in P(S)$ is the least upper
 bound of $\left\{{X, Y}\right\}$. Therefore, $P(S)$ is a lattice. Given
 any set $A \in P(S), A \cup S = S$, so $S$ is a maximal element of $P(S)$.
-Furthermore, any set $M \in P(S)$ that is maximal still has the property
+Furthermore, any set $M \in P(S)$ that is maximal has the property
 that $M \cup S = S$. Therefore, $P(S)$ has a unique maximal element,
 $S$.$\quad\square$
 
@@ -50,11 +51,11 @@ order if $a\le a'$ in $A$ implies $f(a) \le f(a')$ in $B$. Prove that an
 order-preserving map $f$ of a complete lattice $A$ onto itself has at
 least one fixed element (that is, an $a \in A$ such that $f(a) = a$).
 
-**_Proof._**&nbsp;$\quad$Let $P=\{x\in A:f(x)\ge x\}$. Note that $P$ is
-nonempty as the g.l.b of $A\in P$. Let $a$ be the l.u.b of $P$. Since
-$a\ge x$ for all $x\in P$, $f(a) \ge f(x)$ for all $x\in P$, and so $f(a)\ge
-x$ for all $x\in P$; thus $f(a) \ge a$, and so $a\in P$. But then $a\le f(a)$
-implies $f(a)\le f(f(a))$; thus $f(a)\in A$, and so $f(a)\le a$. Therefore,
+**_Proof._**&nbsp;$\quad$Let $P=\{x\in A:f(x)\ge x\}$. $P$ is
+nonempty since the g.l.b of $A\in P$. Let $a$ be the l.u.b of $P$. Since
+$a\ge x$ for all $x\in P$, $f(a) \ge f(x)$ for all $x\in P$, thus $f(a)\ge
+x$ for all $x\in P$, and so $f(a) \ge a$ and $a\in P$. Since $a\le f(a)$
+implies $f(a)\le f(f(a))$, $f(a)\in A$, and so $f(a)\le a$. Therefore,
 $f(a) = a$.$\quad\square$
 
 **3\.** Exhibit a well-ordering of the set $\mathbb{Q}$ of rational numbers.
@@ -81,14 +82,14 @@ $\langle x_i\in X_i\mid i\in I\rangle$, thus we have the function
 $f(i)=x_i$. So every set $S$ has a choice function. Conversely, If there is a
 choice function $f$, then $\langle f(i)\in X_i\mid i\in I\rangle$ is an
 element of the product $\prod_{i\in I}X_i$ for all nonempty $X_i\subset S$.
-So the product is nonempty.$\quad\square$
+Thus the product is nonempty.$\quad\square$
 
 **5\.** Let $S$ be the set of all points $(x, y)$ in the plane with $y \le 0$.
 Define an ordering by $(x_1,y_1) \le (x_2,y_2) \iff x_1 = x_2$ and $y_1 \le
 y_2$. Show that this is a partial ordering of $S$, and that $S$ has
 infinitely many maximal elements.
 
-**_Proof._**&nbsp;$\quad$It is easily seen that that the relation
+**_Proof._**&nbsp;$\quad$It is easily seen that the relation
 on $S$ is reflexive, antisymmetric, and transitive, and that the elements
 $(x, 0)$ are all maximal elements.$\quad\square$
 
@@ -98,7 +99,7 @@ $(x, 0)$ are all maximal elements.$\quad\square$
 
 **_Proof._**&nbsp;$\quad$By definition, the product $\prod_{i\in I}{A_i}$
 is the set of all functions $f : I \to \bigcup_{i \in I}A_i$ such
-that $f(i) \in A_i$ for all $i \in I$. Then each of the projections
+that $f(i) \in A_i$ for all $i \in I$. Thus each of the projections
 $\pi_k : \prod_{i\in I} {A_i \to A_k}$ is given by $f \mapsto f(k)$.
 Since for each $k$, the product $\prod_{i\in I}{A_i}$ has all functions $f$
 such that $f(k)\in A_k$, $\text{dom } \pi_k=A_k$, and so
@@ -114,7 +115,7 @@ set in which precisely two elements have no immediate successor.
 of $A$, then $X_a=\{x \in A\mid x>a\}$ is nonempty, and by
 well-orderedness, $X_a$ has a least element $m$ which is the immediate
 successor of $a$. Otherwise, $a$ has no immediate successor; given any two
-maximal elements $M$ and $N$, then either $M < N, M = N$, or $N < M$; thus
+maximal elements $M$ and $N$, then either $M < N$ or $M = N$ or $N < M$; thus
 $M = N$.$\quad\square$
 
 **_Example._**&nbsp;$\quad$Consider $\left[0,1\right]\cup\left(1.1,2\right]
