@@ -319,11 +319,10 @@ $\bigcap_{i \in I}H_i$ and the l.u.b. is $\langle\bigcup_{i \in I}H_i\rangle$.
 D_4^{\ast }, Z_6, Z_{27}$, and $Z_{36}$.
 
 **_Proof._**&nbsp;$\quad$(a) Let $S$ be the set of all subgroups of a group
-$G$. Then it is clear that $\bigcap_{i \in I}H_i$ is the g.l.b of
-$\{H_i \mid i \in I\}$ in $P(G)$ under set inclusion, and also
-that $\bigcap_{i \in I}H_i\in S$.
-Consider a set $T=\{t\in P(G)\mid t$ is a
-subgroup of $G$ such that $\bigcup_{i \in I}H_i\subset t\}$. Since $G\in T$,
+$G$. $\bigcap_{i \in I}H_i$ is the g.l.b of
+$\{H_i \mid i \in I\}$ in $P(G)$ under set inclusion, and
+also $\bigcap_{i \in I}H_i\in S$.
+Consider a set $T=\{t\in S\mid \bigcup_{i \in I}H_i\subset t\}$. Since $G\in T$,
 $T$ is nonempty, and so $T$ has a nonempty minimal element under set
 inclusion. Let $A$ and $B$ be minimal elements of $T$. If $A\ne B$, then
 $A\cap B\in T$ and $A\cap B\subsetneq A$,
