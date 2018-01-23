@@ -23,7 +23,7 @@ $f({1})\neq {1}$.$\quad\square$
 **2\.** A group $G$ is abelian if and only if the map $G\to G$ given by
 $x \to x^{-1}$ is an automorphism.
 
-**_Proof._**&nbsp;$\quad$Let $a,b\in G$, and let $f$ be
+**_Proof._**&nbsp;$\quad$Let $a,b\in G$ and let $f$ be
 the map. Remind that by Exercise 1-11 (iii),
 $G$ is abelian if and only if $(ab)^{-1}=a^{-1}b^{-1}$.
 _Case $\Rightarrow$._ If $G$ is abelian,

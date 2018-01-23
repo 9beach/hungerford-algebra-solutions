@@ -21,7 +21,7 @@ $M (S,G)$ the set of all functions $f : S\to G$. Define additions in
 $M (S, G)$ as follows: $(f + g) : S\to G$ is given by $s\mapsto f(s)+g(s)\in
 G$. Prove that $M(S, G)$ is a group, which is abelian if $G$ is.
 
-**_Proof._**&nbsp;$\quad$Let $s\in S$, and let $f, g$, and $h\in M(S, G)$.
+**_Proof._**&nbsp;$\quad$Let $s\in S$ and let $f, g$, and $h\in M(S, G)$.
 Since $(f+g)(x)$ has a unique value $f(x)+g(x)\in G$,
 $f+g$ is a well-defined function in $M(S, G)$.
 $((f+g)+h)(x)$ $=$ $(f+g)(x)+h(x)$ $=$ $(f(x)+g(x))+h(x)$ $=$
@@ -205,7 +205,7 @@ $Q(n+1)$ holds. Therefore, $(ab)^n = a^nb^n$ for all $n\in
 &nbsp;$\quad$_Case (iv)$\Rightarrow$(ii)._ Clear.\
 &nbsp;$\quad$_Case (iv)$\Rightarrow$(v)._ Clear.\
 &nbsp;$\quad$_Case (v)$\Rightarrow$(i)._
-Let $a$ and $b\in G$, and let  $n\in\mathbb{Z}$. $(ab)^n = a^nb^n, (ab)^{n+1}=a^{n+1}b^{n+1},
+Let $a$ and $b\in G$ and let  $n\in\mathbb{Z}$. $(ab)^n = a^nb^n, (ab)^{n+1}=a^{n+1}b^{n+1},
 (ab)^{n+2}=a^{n+2}b^{n+2}$.
 $a^{n+1}b^{n+1}$ $=$ $(ab)^{n+1}$ $=$ $(ab)^n(ab)$ $=$ $a^nb^nab$
 $\Leftrightarrow$ $a^{-n}a^{n+1}b^{n+1}b^{-1}=a^{-n}a^nb^nabb^{-1}$

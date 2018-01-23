@@ -124,7 +124,7 @@ and $|B|$ with $n$, then $|A| + |B| = m + n$ and $|A||B| = mn$.
 
 **_Proof._**&nbsp;$\quad$Let $f:A\to I_m$ and
 $g:B\to I_n$ be bijective. There is a bijection of
-$A\cup B$ onto $I_{m+n}$ given by $x\mapsto f(x)$ if $x\in A$, otherwise
+$A\cup B$ onto $I_{m+n}$ given by $x\mapsto f(x)$ if $x\in A$; otherwise
 $x\mapsto g(x)+m$, and also there is a bijection of $A\times B$ onto $I_{mn}$
 given by $(x,y)\mapsto nf(x) - n + g(y)$.$\quad\square$
 
@@ -216,7 +216,7 @@ If $f\in A^C$, then $f\in B^C$. If $g\in B^C$ and $\text{Im }g\cap
 &nbsp;$\quad$(e) Clear.
 \
 &nbsp;$\quad$(f) For every $X\subset A$, let $\chi_X$ be the function
-given by $x\mapsto 1$ if $x\in X$,
+given by $x\mapsto 1$ if $x\in X$;
 otherwise $x\mapsto0$. The mapping of $P(A)$ onto $\{0,1\}^A$ given by
 $S\mapsto \chi_S$ is bijective.$\quad\square$
 
