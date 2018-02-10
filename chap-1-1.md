@@ -156,7 +156,7 @@ $$
 Z(p^\infty )=\{\overline{a/b}\in\mathbb{Q}/\mathbb{Z}\mid a,b\in Z\text{ and }
 b=p^i\text{ for some } i\ge 0\}.
 $$
-Show that $\mathbb{Z}(p^\infty )$ is an infinite group under the addition
+Show that ${Z}(p^\infty )$ is an infinite group under the addition
 operation of $\mathbb{Q}/\mathbb{Z}$.
 
 **_Proof._**&nbsp;$\quad$Let $a/b$ and $c/d\in \mathbb{Q}$. If $a/b\sim c/d$
