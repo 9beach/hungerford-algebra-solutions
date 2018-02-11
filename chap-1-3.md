@@ -130,10 +130,10 @@ exactly one subgroup of order $k$.
 
 **_Proof._**&nbsp;$\quad$Since every subgroup of a cyclic group is cylic,
 consider cyclic subgroups of $G$. Let $G=\langle a\rangle$ and $m=n/p$.
-Since $a^{mk}=e_G$ and $a^{mi}\neq e_G$ for $i$ with $0<i<k$, the order of $\langle
-a^m\rangle$ is $k$. On the other hand, if the order of $\langle a^p\rangle$
-is $k$ where $0<p<n$, then $n\mid pk$. Since $k\mid n$, $n/k\mid p$, i.e.,
-$m\mid p$; thus
+Since $a^{mk}=e_G$ and $a^{mi}\neq e_G$ for $i$ with $0<i<k$, the order of
+$\langle a^m\rangle$ is $k$. On the other hand, if the order of $\langle
+a^p\rangle$ is $k$ where $0<p<n$, then $n\mid pk$. Since $k\mid n$, $n/k\mid
+p$, i.e., $m\mid p$; thus
 $a^p\in \langle a^m\rangle$, and so $\langle a^m\rangle$ is exactly one
 subgroup of order $k$.$\quad\square$
 
@@ -203,7 +203,8 @@ there is a subgroup $\langle ma \rangle$, i.e., there are infinitely
 many subgroups. If $\langle a \rangle$ is finite for all $a\in G$,
 then there are infinitely many finite subgroups of $G$; otherwise
 $\bigcup_{a\in G}\langle a\rangle=G$ is finite, a contradiction.
-Therefore, a infinite group has infinitely many subgroups.$\quad\square$
+Thus a infinite group has infinitely many subgroups. Therefore, a group that
+has only a finite number of subgroups must be finite.$\quad\square$
 
 **9\.** If $G$ is an abelian group, then the set $T$ of all elements of $G$
 with finite order is a subgroup of $G$. [Compare Exercise 5.]
@@ -216,13 +217,12 @@ $-a\in T$.$\quad\square$
 **10\.** An infinite group is cyclic if and only if it is isomorphic to each
 of its proper subgroups.
 
-**_Proof._**&nbsp;$\quad$Let $G$ be a infinite group, $H$ be a proper
-subgroup of $G$, and $a\in G$. If
+**_Proof._**&nbsp;$\quad$Let $G$ be a infinite group and $a\in G$. If
 $G=\langle a\rangle$, then for all $m\in\mathbb{Z}$ with $m\neq 0$,
 $G\cong\mathbb{Z}\cong\langle ma\rangle$ and
-$H$ is cyclic. If $G$ is isomorphic to each of its proper subgroup, then
-$\langle b\rangle\cong G$ for each proper cyclic subgroup $\langle b\rangle$
-of $G$. Thus $G$ is cyclic. Notice that if there is a proper subgroup of $G$
-then there is a proper cyclic subgroup of $G$; otherwise $G=\langle e_G
-\rangle$, a
-contradiction.$\quad\square$
+each of proper subgroups of $G$ is cyclic. If $G$ is isomorphic to each of
+its proper subgroup, then $\langle b\rangle\cong G$ for each proper cyclic
+subgroup $\langle b\rangle$ of $G$. Thus $G$ is cyclic. Notice that if there
+is a proper subgroup $H<G$ then there is a proper cyclic subgroup of $G$;
+otherwise, for all $c\in H$, $\langle c\rangle\neq H$ and so
+$\langle c\rangle=\langle e_G \rangle$, a contradiction.$\quad\square$

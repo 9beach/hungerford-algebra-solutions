@@ -39,8 +39,8 @@ integer $a$.
 
 **5.** Prove that there are only two distinct groups of order $4$ (up to
 isomorphism), namely $Z_4$ and $Z_2\bigoplus Z_2$. [_Hint:_ By Lagrange's
-Theorem 4.6 a group of order $4$ that is not cyclic must consist of an identity
-and three elements of order $2$.]
+Theorem 4.6 a group of order $4$ that is not cyclic must consist of an
+identity and three elements of order $2$.]
 
 **6.** Let $H,K$ be subgroups of a group $G$. Then $HK$ is a subgroup of $G$
 if and only if $HK=KH$.
@@ -70,6 +70,6 @@ order $p$. [_Hint:_ Suppose $H,K$ are distinct subgroups of order $p$. Show
 $H\cap K=\langle e\rangle$; use Exercise 12 to get a contradiction.]
 
 **14.** Let $G$ be a group and $a,b\in G$ such that (i) $|a|=4=|b|$; (ii)
-$a^2=b^2$; (iii) $ba=a^3b=a^{-1}b$; (iv) $a\neq b$; (v) $G=\langle a,b\rangle$.
-Show that $|G|=8$ and $\cong Q_8$. (See Exercise 2.3; observe that the
-generators $A,B$ of $Q_8$ also satisfy (i)-(v).)
+$a^2=b^2$; (iii) $ba=a^3b=a^{-1}b$; (iv) $a\neq b$; (v)
+$G=\langle a,b\rangle$. Show that $|G|=8$ and $\cong Q_8$. (See Exercise 2.3;
+observe that the generators $A,B$ of $Q_8$ also satisfy (i)-(v).)
