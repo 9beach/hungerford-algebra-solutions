@@ -5,12 +5,9 @@ author: https://github.com/9beach
 ---
 
 # A solutions manual for Algebra by Thomas W. Hungerford
-In December 2017, for no special reason I started studying mathematics and
-writing a solutions manual for
-[Algebra by Thomas W. Hungerford](https://www.amazon.com/Algebra-Graduate-Texts-Mathematics-v/dp/0387905189).
 
 _GitHub repository [here](https://github.com/9beach/hungerford-algebra-solutions),
-HTML versions [here](https://rawgit.com/9beach/hungerford-algebra-solutions/master/README.html),
+HTML versions [here](https://9beach.github.io/manuals/hungerford-algebra-solutions/),
 and PDF version [here](https://github.com/9beach/hungerford-algebra-solutions/releases)._
 
 ## Contents
