@@ -176,5 +176,5 @@ $G=\langle a,b\rangle$. Show that $|G|=8$ and $\cong Q_8$. (See Exercise 2.3;
 observe that the generators $A,B$ of $Q_8$ also satisfy (i)-(v).)
 
 **_Proof._**&nbsp;$\quad$Consider $S=\{e,a,a^2,a^3,b,ab,a^2b,a^3b\}$. It
-is trivial but easy to show that $S$ is the only group satisfying
-the properties above.$\quad\square$
+is easy to show that $S$ is the only group satisfying the properties
+above.$\quad\square$
