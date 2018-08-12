@@ -7,7 +7,7 @@ author: https://github.com/9beach
 # A solutions manual for Algebra by Thomas W. Hungerford
 
 _GitHub repository [here](https://github.com/9beach/hungerford-algebra-solutions),
-HTML versions [here](https://9beach.github.io/manuals/hungerford-algebra-solutions/),
+HTML versions [here](https://9beach.github.io/math/hungerford-algebra-solutions/),
 and PDF version [here](https://github.com/9beach/hungerford-algebra-solutions/releases)._
 
 ## Contents
